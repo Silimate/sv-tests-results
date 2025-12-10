@@ -1,5 +1,20 @@
 {
     "comparable_tools": {
+        "Yosys": {
+            "new_passes": [
+                "regress-vlg_br_gh330_iv"
+            ],
+            "new_failures": [],
+            "added": [],
+            "removed": [],
+            "summary": {
+                "new_failures": 0,
+                "new_passes": 1,
+                "added": 0,
+                "removed": 0,
+                "not_affected": 4720
+            }
+        },
         "Slang": {
             "new_passes": [],
             "new_failures": [],
@@ -14,16 +29,72 @@
             }
         },
         "Verilator": {
-            "new_passes": [],
-            "new_failures": [],
+            "new_passes": [
+                "repeat_production_statements_0",
+                "random_sequence_generation_randsequence_0",
+                "random_sequence_generation_randsequence_2",
+                "interleaving_productions_rand_join_2",
+                "aborting_productions_break_and_return_0",
+                "case_production_statements_0",
+                "interleaving_productions_rand_join_0",
+                "aborting_productions_break_and_return_2",
+                "if_else_production_statements_0",
+                "if_else_production_statements_2",
+                "random_production_weights_0"
+            ],
+            "new_failures": [
+                "uvm_test_1",
+                "property_interface_test_uvm",
+                "uvm_agent_1",
+                "uvm_sequencer_1",
+                "uvm_monitor_1",
+                "uvm_driver_sequencer_env",
+                "ariane",
+                "uvm_env_0",
+                "assume_test_uvm",
+                "uvm_env_1",
+                "uvm_resource_db_read_by_name",
+                "uvm_agent_passive",
+                "uvm_component_1",
+                "uvm_agent_0",
+                "uvm_scoreboard_env",
+                "uvm_scoreboard_0",
+                "property_test_uvm",
+                "property_prec_test_uvm",
+                "uvm_scoreboard_1",
+                "uvm_component_3",
+                "uvm_monitor_env",
+                "uvm_monitor_3",
+                "uvm_scoreboard_monitor_env",
+                "uvm_monitor_0",
+                "property_disable_iff_test_uvm",
+                "uvm_scoreboard_3",
+                "uvm_sequencer_3",
+                "uvm_test_run_test",
+                "uvm_sequencer_0",
+                "assume_property_test_uvm",
+                "property_interface_prec_test_uvm",
+                "uvm_test_3",
+                "uvm_agent_env",
+                "uvm_driver_0",
+                "uvm_agent_active",
+                "uvm_test_0",
+                "uvm_component_0",
+                "uvm_driver_3",
+                "uvm_agent_3",
+                "assert_test_uvm",
+                "uvm_driver_1",
+                "uvm_scoreboard_monitor_agent_env",
+                "uvm_env_3"
+            ],
             "added": [],
             "removed": [],
             "summary": {
-                "new_failures": 0,
-                "new_passes": 0,
+                "new_failures": 43,
+                "new_passes": 11,
                 "added": 0,
                 "removed": 0,
-                "not_affected": 5067
+                "not_affected": 5013
             }
         },
         "Icarus": {
@@ -54,17 +125,15 @@
         },
         "yosys_slang": {
             "new_passes": [],
-            "new_failures": [
-                "regress-vlg_pr1867161b_iv"
-            ],
+            "new_failures": [],
             "added": [],
             "removed": [],
             "summary": {
-                "new_failures": 1,
+                "new_failures": 0,
                 "new_passes": 0,
                 "added": 0,
                 "removed": 0,
-                "not_affected": 4257
+                "not_affected": 4258
             }
         },
         "Slang_parse": {
@@ -78,21 +147,6 @@
                 "added": 0,
                 "removed": 0,
                 "not_affected": 4999
-            }
-        },
-        "Yosys": {
-            "new_passes": [],
-            "new_failures": [
-                "regress-vlg_br_gh330_iv"
-            ],
-            "added": [],
-            "removed": [],
-            "summary": {
-                "new_failures": 1,
-                "new_passes": 0,
-                "added": 0,
-                "removed": 0,
-                "not_affected": 4720
             }
         }
     },
