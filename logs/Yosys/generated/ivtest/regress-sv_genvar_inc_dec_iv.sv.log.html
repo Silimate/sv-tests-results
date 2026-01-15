@@ -17,8 +17,8 @@
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest<li>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,16 +32,16 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:33:32</dd></div>
-        <div><dt>time elapsed</dt><dd>0.066s</dd></div>
-        <div><dt>ram usage</dt><dd>23732 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:08:37</dd></div>
+        <div><dt>time elapsed</dt><dd>0.072s</dd></div>
+        <div><dt>ram usage</dt><dd>24060 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>sh /__w/sv-tests/sv-tests/out/tmp/tmp8fj2saj5/run.sh</pre>
-      <pre>+ cat /__w/sv-tests/sv-tests/out/tmp/tmp8fj2saj5/scr.ys</pre>
-      <pre>read_verilog  -sv -nodisplay  -I /__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest -I /__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests  <a href="../../../../third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v</a></pre>
+      <pre>sh /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpil28jns4/run.sh</pre>
+      <pre>+ cat /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpil28jns4/scr.ys</pre>
+      <pre>read_verilog  -sv -nodisplay  -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests  <a href="../../../../third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v</a></pre>
       <pre>hierarchy -auto-top</pre>
       <pre>proc</pre>
       <pre>check</pre>
@@ -51,9 +51,9 @@
       <pre>stat</pre>
       <pre>check</pre>
       <pre>sim -assert</pre>
-      <pre>+ yosys -Q -T /__w/sv-tests/sv-tests/out/tmp/tmp8fj2saj5/scr.ys</pre>
+      <pre>+ yosys -Q -T /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpil28jns4/scr.ys</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmp8fj2saj5/scr.ys&#39; --</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpil28jns4/scr.ys&#39; --</pre>
       <pre></pre>
       <pre>1. Executing Verilog-2005 frontend: <a href="../../../../third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v</a></pre>
       <pre>Parsing SystemVerilog input from `<a href="../../../../third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v</a>&#39; to AST representation.</pre>
@@ -81,7 +81,7 @@
       <pre>Cleaned up 0 empty switches.</pre>
       <pre></pre>
       <pre>3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Marked 17 switch rules as full_case in process $proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41 in module test.</pre>
+      <pre>Marked 17 switch rules as full_case in process $proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41 in module test.</pre>
       <pre>Removed a total of 0 dead cases.</pre>
       <pre></pre>
       <pre>3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
@@ -97,23 +97,23 @@
       <pre>&lt;suppressed ~17 debug messages&gt;</pre>
       <pre></pre>
       <pre>3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$138&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$136&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$134&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$132&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$130&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$128&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$126&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$124&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$122&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$120&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$118&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$116&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$114&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$112&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$110&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$108&#39;.</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$138&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$136&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$134&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$132&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$130&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$128&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$126&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$124&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$122&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$120&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$118&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$116&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$114&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$112&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$110&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$108&#39;.</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
       <pre>     1/18: $16\failed[0:0]</pre>
       <pre>     2/18: $15\failed[0:0]</pre>
       <pre>     3/18: $14\failed[0:0]</pre>
@@ -130,52 +130,52 @@
       <pre>    14/18: $3\failed[0:0]</pre>
       <pre>    15/18: $2\failed[0:0]</pre>
       <pre>    16/18: $1\failed[0:0]</pre>
-      <pre>    17/18: $display$0x564feb386620:54$107_EN</pre>
-      <pre>    18/18: $display$0x564feb386620:52$106_EN</pre>
+      <pre>    17/18: $display$0x5df5d318d6e0:54$107_EN</pre>
+      <pre>    18/18: $display$0x5df5d318d6e0:52$106_EN</pre>
       <pre></pre>
       <pre>3.8. Executing PROC_DLATCH pass (convert process syncs to latches).</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array4$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$24_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$138&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array4$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$23_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$136&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array4$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$22_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$134&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array4$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$21_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$132&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array3$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$20_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$130&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array3$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$19_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$128&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array3$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$18_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$126&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array3$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$17_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$124&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array2$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$16_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$122&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array2$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$15_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$120&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array2$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$14_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$118&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array2$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$13_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$116&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array1$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$12_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$114&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array1$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$11_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$112&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array1$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$10_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$110&#39;.</pre>
-      <pre>No latch inferred for signal `\test.$memwr$\array1$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$9_EN&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$108&#39;.</pre>
-      <pre>No latch inferred for signal `\test.\i&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
-      <pre>No latch inferred for signal `\test.\failed&#39; from process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array4$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$24_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$138&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array4$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$23_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$136&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array4$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$22_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$134&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array4$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$21_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$132&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array3$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$20_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$130&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array3$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$19_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$128&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array3$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$18_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$126&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array3$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$17_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$124&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array2$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$16_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$122&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array2$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$15_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$120&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array2$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$14_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$118&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array2$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$13_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$116&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array1$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$12_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$114&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array1$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$11_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$112&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array1$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$10_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$110&#39;.</pre>
+      <pre>No latch inferred for signal `\test.$memwr$\array1$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$9_EN&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$108&#39;.</pre>
+      <pre>No latch inferred for signal `\test.\i&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
+      <pre>No latch inferred for signal `\test.\failed&#39; from process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
       <pre></pre>
       <pre>3.9. Executing PROC_DFF pass (convert process syncs to FFs).</pre>
       <pre></pre>
       <pre>3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).</pre>
       <pre></pre>
       <pre>3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$138&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$136&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$134&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$132&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$130&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$128&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$126&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$124&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$122&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$120&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$118&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$116&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$114&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$112&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$110&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$108&#39;.</pre>
-      <pre>Found and cleaned up 17 empty switches in `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$138&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$136&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$134&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:25$132&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$130&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$128&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$126&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:21$124&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$122&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$120&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$118&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:17$116&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$114&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$112&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$110&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:13$108&#39;.</pre>
+      <pre>Found and cleaned up 17 empty switches in `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/genvar_inc_dec.v:28$41&#39;.</pre>
       <pre>Cleaned up 17 empty switches.</pre>
       <pre></pre>
       <pre>3.12. Executing OPT_EXPR pass (perform const folding).</pre>

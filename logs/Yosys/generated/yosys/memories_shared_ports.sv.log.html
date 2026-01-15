@@ -17,7 +17,7 @@
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,17 +32,17 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:34:16</dd></div>
-        <div><dt>time elapsed</dt><dd>0.041s</dd></div>
-        <div><dt>ram usage</dt><dd>24764 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:09:17</dd></div>
+        <div><dt>time elapsed</dt><dd>0.045s</dd></div>
+        <div><dt>ram usage</dt><dd>24808 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>sh /__w/sv-tests/sv-tests/out/tmp/tmpea5htea9/run.sh</pre>
-      <pre>+ cat /__w/sv-tests/sv-tests/out/tmp/tmpea5htea9/scr.ys</pre>
-      <pre>read_verilog  -sv   -I /__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories  <a href="../../../../tests/generated/yosys/memories_shared_ports.sv.html" target="file-frame">tests/generated/yosys/memories_shared_ports.sv</a></pre>
-      <pre>read_verilog  -sv   -I /__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories  <a href="../../../../third_party/tools/yosys/tests/memories/shared_ports.v.html" target="file-frame">third_party/tools/yosys/tests/memories/shared_ports.v</a></pre>
+      <pre>sh /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpeyotdrv6/run.sh</pre>
+      <pre>+ cat /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpeyotdrv6/scr.ys</pre>
+      <pre>read_verilog  -sv   -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories  <a href="../../../../tests/generated/yosys/memories_shared_ports.sv.html" target="file-frame">tests/generated/yosys/memories_shared_ports.sv</a></pre>
+      <pre>read_verilog  -sv   -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories  <a href="../../../../third_party/tools/yosys/tests/memories/shared_ports.v.html" target="file-frame">third_party/tools/yosys/tests/memories/shared_ports.v</a></pre>
       <pre>hierarchy -auto-top</pre>
       <pre>proc</pre>
       <pre>check</pre>
@@ -51,9 +51,9 @@
       <pre>memory_collect</pre>
       <pre>stat</pre>
       <pre>check</pre>
-      <pre>+ yosys -Q -T /__w/sv-tests/sv-tests/out/tmp/tmpea5htea9/scr.ys</pre>
+      <pre>+ yosys -Q -T /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpeyotdrv6/scr.ys</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmpea5htea9/scr.ys&#39; --</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpeyotdrv6/scr.ys&#39; --</pre>
       <pre></pre>
       <pre>1. Executing Verilog-2005 frontend: <a href="../../../../tests/generated/yosys/memories_shared_ports.sv.html" target="file-frame">tests/generated/yosys/memories_shared_ports.sv</a></pre>
       <pre>Parsing SystemVerilog input from `<a href="../../../../tests/generated/yosys/memories_shared_ports.sv.html" target="file-frame">tests/generated/yosys/memories_shared_ports.sv</a>&#39; to AST representation.</pre>
@@ -85,7 +85,7 @@
       <pre>Cleaned up 0 empty switches.</pre>
       <pre></pre>
       <pre>4.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Marked 3 switch rules as full_case in process $proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4 in module test.</pre>
+      <pre>Marked 3 switch rules as full_case in process $proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4 in module test.</pre>
       <pre>Removed a total of 0 dead cases.</pre>
       <pre></pre>
       <pre>4.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
@@ -101,55 +101,55 @@
       <pre>&lt;suppressed ~3 debug messages&gt;</pre>
       <pre></pre>
       <pre>4.7. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
-      <pre>     1/18: $3$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_EN[31:0]$31</pre>
-      <pre>     2/18: $3$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_DATA[31:0]$30</pre>
-      <pre>     3/18: $3$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_ADDR[3:0]$29</pre>
-      <pre>     4/18: $2$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_EN[31:0]$25</pre>
-      <pre>     5/18: $2$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_DATA[31:0]$24</pre>
-      <pre>     6/18: $2$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_ADDR[3:0]$23</pre>
-      <pre>     7/18: $2$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_EN[31:0]$28</pre>
-      <pre>     8/18: $2$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_DATA[31:0]$27</pre>
-      <pre>     9/18: $2$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_ADDR[3:0]$26</pre>
-      <pre>    10/18: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_EN[31:0]$16</pre>
-      <pre>    11/18: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_DATA[31:0]$15</pre>
-      <pre>    12/18: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_ADDR[3:0]$14</pre>
-      <pre>    13/18: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_EN[31:0]$22</pre>
-      <pre>    14/18: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_DATA[31:0]$21</pre>
-      <pre>    15/18: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_ADDR[3:0]$20</pre>
-      <pre>    16/18: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_EN[31:0]$19</pre>
-      <pre>    17/18: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_DATA[31:0]$18</pre>
-      <pre>    18/18: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_ADDR[3:0]$17</pre>
+      <pre>Creating decoders for process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>     1/18: $3$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_EN[31:0]$31</pre>
+      <pre>     2/18: $3$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_DATA[31:0]$30</pre>
+      <pre>     3/18: $3$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_ADDR[3:0]$29</pre>
+      <pre>     4/18: $2$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_EN[31:0]$25</pre>
+      <pre>     5/18: $2$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_DATA[31:0]$24</pre>
+      <pre>     6/18: $2$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_ADDR[3:0]$23</pre>
+      <pre>     7/18: $2$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_EN[31:0]$28</pre>
+      <pre>     8/18: $2$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_DATA[31:0]$27</pre>
+      <pre>     9/18: $2$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_ADDR[3:0]$26</pre>
+      <pre>    10/18: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_EN[31:0]$16</pre>
+      <pre>    11/18: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_DATA[31:0]$15</pre>
+      <pre>    12/18: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_ADDR[3:0]$14</pre>
+      <pre>    13/18: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_EN[31:0]$22</pre>
+      <pre>    14/18: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_DATA[31:0]$21</pre>
+      <pre>    15/18: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_ADDR[3:0]$20</pre>
+      <pre>    16/18: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_EN[31:0]$19</pre>
+      <pre>    17/18: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_DATA[31:0]$18</pre>
+      <pre>    18/18: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_ADDR[3:0]$17</pre>
       <pre></pre>
       <pre>4.8. Executing PROC_DLATCH pass (convert process syncs to latches).</pre>
       <pre></pre>
       <pre>4.9. Executing PROC_DFF pass (convert process syncs to FFs).</pre>
-      <pre>Creating register for signal `\test.\rd_data&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.\rd_data&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$123&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_ADDR&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_ADDR&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$124&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_DATA&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_DATA&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$125&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_EN&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:17$1_EN&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$126&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_ADDR&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_ADDR&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$127&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_DATA&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_DATA&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$128&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_EN&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:19$2_EN&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$129&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_ADDR&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_ADDR&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$130&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_DATA&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_DATA&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$131&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_EN&#39; using process `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Creating register for signal `\test.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:21$3_EN&#39; using process `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>  created $dff cell `$procdff$132&#39; with positive edge clock.</pre>
       <pre></pre>
       <pre>4.10. Executing PROC_MEMWR pass (convert process memory writes to cells).</pre>
       <pre></pre>
       <pre>4.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Found and cleaned up 3 empty switches in `\test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
-      <pre>Removing empty process `test.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Found and cleaned up 3 empty switches in `\test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
+      <pre>Removing empty process `test.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/shared_ports.v:15$4&#39;.</pre>
       <pre>Cleaned up 3 empty switches.</pre>
       <pre></pre>
       <pre>4.12. Executing OPT_EXPR pass (perform const folding).</pre>

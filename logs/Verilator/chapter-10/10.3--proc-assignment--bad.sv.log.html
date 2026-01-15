@@ -13,11 +13,11 @@
       <dl>
         <div><dt>description</dt><dd>continuous assignment with delay test</dd></div>
         <div><dt>rc</dt><dd>1 (means success: 0)</dd></div>
-        <div><dt>tags</dt><dd>uvm-req 10.3</dd></div>
+        <div><dt>tags</dt><dd>10.3 uvm-req</dd></div>
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/tests/chapter-10<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/tests/chapter-10<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -31,17 +31,17 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:44:38</dd></div>
-        <div><dt>time elapsed</dt><dd>0.101s</dd></div>
-        <div><dt>ram usage</dt><dd>15548 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:19:58</dd></div>
+        <div><dt>time elapsed</dt><dd>0.064s</dd></div>
+        <div><dt>ram usage</dt><dd>15568 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>sh scr.sh --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests/sv-tests/tests/chapter-10 -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../tests/chapter-10/10.3--proc-assignment--bad.sv.html" target="file-frame">tests/chapter-10/10.3--proc-assignment--bad.sv</a></pre>
-      <pre>+ verilator --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests/sv-tests/tests/chapter-10 -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../tests/chapter-10/10.3--proc-assignment--bad.sv.html" target="file-frame">tests/chapter-10/10.3--proc-assignment--bad.sv</a></pre>
+      <pre>sh scr.sh --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests-pvt/sv-tests-pvt/tests/chapter-10 -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../tests/chapter-10/10.3--proc-assignment--bad.sv.html" target="file-frame">tests/chapter-10/10.3--proc-assignment--bad.sv</a></pre>
+      <pre>+ verilator --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests-pvt/sv-tests-pvt/tests/chapter-10 -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../tests/chapter-10/10.3--proc-assignment--bad.sv.html" target="file-frame">tests/chapter-10/10.3--proc-assignment--bad.sv</a></pre>
       <pre>%Error-PROCASSWIRE: <a href="../../../tests/chapter-10/10.3--proc-assignment--bad.sv.html#l-23" target="file-frame">tests/chapter-10/10.3--proc-assignment--bad.sv:23:2</a>: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): &#39;w&#39;</pre>
-      <pre>                                                                                              : ... note: In instance &#39;top&#39;</pre>
+      <pre>                                                                                                      : ... note: In instance &#39;top&#39;</pre>
       <pre>                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.043</pre>
       <pre>%Error: Exiting due to 1 error(s)</pre>
       <pre>+ exit 1</pre>

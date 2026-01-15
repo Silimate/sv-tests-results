@@ -17,8 +17,8 @@
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest<li>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,16 +32,16 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:33:40</dd></div>
-        <div><dt>time elapsed</dt><dd>0.082s</dd></div>
-        <div><dt>ram usage</dt><dd>27412 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:08:35</dd></div>
+        <div><dt>time elapsed</dt><dd>0.086s</dd></div>
+        <div><dt>ram usage</dt><dd>27432 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>sh /__w/sv-tests/sv-tests/out/tmp/tmpa2z02bas/run.sh</pre>
-      <pre>+ cat /__w/sv-tests/sv-tests/out/tmp/tmpa2z02bas/scr.ys</pre>
-      <pre>read_verilog  -sv -nodisplay  -I /__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest -I /__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests  <a href="../../../../third_party/tools/icarus/ivtest/ivltests/pr3054101c.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/pr3054101c.v</a></pre>
+      <pre>sh /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmp6r_95f67/run.sh</pre>
+      <pre>+ cat /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmp6r_95f67/scr.ys</pre>
+      <pre>read_verilog  -sv -nodisplay  -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests  <a href="../../../../third_party/tools/icarus/ivtest/ivltests/pr3054101c.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/pr3054101c.v</a></pre>
       <pre>hierarchy -auto-top</pre>
       <pre>proc</pre>
       <pre>check</pre>
@@ -51,9 +51,9 @@
       <pre>stat</pre>
       <pre>check</pre>
       <pre>sim -assert</pre>
-      <pre>+ yosys -Q -T /__w/sv-tests/sv-tests/out/tmp/tmpa2z02bas/scr.ys</pre>
+      <pre>+ yosys -Q -T /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmp6r_95f67/scr.ys</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmpa2z02bas/scr.ys&#39; --</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmp6r_95f67/scr.ys&#39; --</pre>
       <pre></pre>
       <pre>1. Executing Verilog-2005 frontend: <a href="../../../../third_party/tools/icarus/ivtest/ivltests/pr3054101c.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/pr3054101c.v</a></pre>
       <pre>Parsing SystemVerilog input from `<a href="../../../../third_party/tools/icarus/ivtest/ivltests/pr3054101c.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/pr3054101c.v</a>&#39; to AST representation.</pre>
@@ -110,7 +110,7 @@
       <pre>Cleaned up 0 empty switches.</pre>
       <pre></pre>
       <pre>3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Marked 50 switch rules as full_case in process $proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50 in module top.</pre>
+      <pre>Marked 50 switch rules as full_case in process $proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50 in module top.</pre>
       <pre>Removed a total of 0 dead cases.</pre>
       <pre></pre>
       <pre>3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
@@ -126,7 +126,7 @@
       <pre>&lt;suppressed ~51 debug messages&gt;</pre>
       <pre></pre>
       <pre>3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
       <pre>     1/105: $45\passed[0:0]</pre>
       <pre>     2/105: $2\res_cd[3:3]</pre>
       <pre>     3/105: $44\passed[0:0]</pre>
@@ -186,82 +186,82 @@
       <pre>    57/105: $3\passed[0:0]</pre>
       <pre>    58/105: $2\passed[0:0]</pre>
       <pre>    59/105: $1\passed[0:0]</pre>
-      <pre>    60/105: $display$0x561139a419c0:319$541_EN</pre>
-      <pre>    61/105: $display$0x561139a419c0:315$540_EN</pre>
-      <pre>    62/105: $display$0x561139a419c0:308$537_EN</pre>
-      <pre>    63/105: $display$0x561139a419c0:301$534_EN</pre>
-      <pre>    64/105: $display$0x561139a419c0:294$531_EN</pre>
-      <pre>    65/105: $display$0x561139a419c0:287$528_EN</pre>
-      <pre>    66/105: $display$0x561139a419c0:278$525_EN</pre>
-      <pre>    67/105: $display$0x561139a419c0:273$523_EN</pre>
-      <pre>    68/105: $display$0x561139a419c0:268$521_EN</pre>
-      <pre>    69/105: $display$0x561139a419c0:263$519_EN</pre>
-      <pre>    70/105: $display$0x561139a419c0:258$517_EN</pre>
-      <pre>    71/105: $display$0x561139a419c0:253$515_EN</pre>
-      <pre>    72/105: $display$0x561139a419c0:248$513_EN</pre>
-      <pre>    73/105: $display$0x561139a419c0:243$511_EN</pre>
-      <pre>    74/105: $display$0x561139a419c0:238$509_EN</pre>
-      <pre>    75/105: $display$0x561139a419c0:233$507_EN</pre>
-      <pre>    76/105: $display$0x561139a419c0:226$501_EN</pre>
-      <pre>    77/105: $display$0x561139a419c0:220$486_EN</pre>
-      <pre>    78/105: $display$0x561139a419c0:214$471_EN</pre>
-      <pre>    79/105: $display$0x561139a419c0:208$456_EN</pre>
-      <pre>    80/105: $display$0x561139a419c0:202$441_EN</pre>
-      <pre>    81/105: $display$0x561139a419c0:196$426_EN</pre>
-      <pre>    82/105: $display$0x561139a419c0:190$411_EN</pre>
-      <pre>    83/105: $display$0x561139a419c0:184$396_EN</pre>
-      <pre>    84/105: $display$0x561139a419c0:178$381_EN</pre>
-      <pre>    85/105: $display$0x561139a419c0:172$366_EN</pre>
-      <pre>    86/105: $display$0x561139a419c0:164$351_EN</pre>
-      <pre>    87/105: $display$0x561139a419c0:158$336_EN</pre>
-      <pre>    88/105: $display$0x561139a419c0:152$321_EN</pre>
-      <pre>    89/105: $display$0x561139a419c0:146$306_EN</pre>
-      <pre>    90/105: $display$0x561139a419c0:140$291_EN</pre>
-      <pre>    91/105: $display$0x561139a419c0:134$276_EN</pre>
-      <pre>    92/105: $display$0x561139a419c0:128$261_EN</pre>
-      <pre>    93/105: $display$0x561139a419c0:122$246_EN</pre>
-      <pre>    94/105: $display$0x561139a419c0:116$231_EN</pre>
-      <pre>    95/105: $display$0x561139a419c0:110$216_EN</pre>
-      <pre>    96/105: $display$0x561139a419c0:102$201_EN</pre>
-      <pre>    97/105: $display$0x561139a419c0:96$186_EN</pre>
-      <pre>    98/105: $display$0x561139a419c0:90$171_EN</pre>
-      <pre>    99/105: $display$0x561139a419c0:84$156_EN</pre>
-      <pre>   100/105: $display$0x561139a419c0:78$141_EN</pre>
-      <pre>   101/105: $display$0x561139a419c0:72$126_EN</pre>
-      <pre>   102/105: $display$0x561139a419c0:66$111_EN</pre>
-      <pre>   103/105: $display$0x561139a419c0:60$96_EN</pre>
-      <pre>   104/105: $display$0x561139a419c0:54$81_EN</pre>
-      <pre>   105/105: $display$0x561139a419c0:48$66_EN</pre>
-      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:23$49&#39;.</pre>
-      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:22$48&#39;.</pre>
-      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:16$47&#39;.</pre>
-      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:15$46&#39;.</pre>
+      <pre>    60/105: $display$0x58bc1c6c1be0:319$541_EN</pre>
+      <pre>    61/105: $display$0x58bc1c6c1be0:315$540_EN</pre>
+      <pre>    62/105: $display$0x58bc1c6c1be0:308$537_EN</pre>
+      <pre>    63/105: $display$0x58bc1c6c1be0:301$534_EN</pre>
+      <pre>    64/105: $display$0x58bc1c6c1be0:294$531_EN</pre>
+      <pre>    65/105: $display$0x58bc1c6c1be0:287$528_EN</pre>
+      <pre>    66/105: $display$0x58bc1c6c1be0:278$525_EN</pre>
+      <pre>    67/105: $display$0x58bc1c6c1be0:273$523_EN</pre>
+      <pre>    68/105: $display$0x58bc1c6c1be0:268$521_EN</pre>
+      <pre>    69/105: $display$0x58bc1c6c1be0:263$519_EN</pre>
+      <pre>    70/105: $display$0x58bc1c6c1be0:258$517_EN</pre>
+      <pre>    71/105: $display$0x58bc1c6c1be0:253$515_EN</pre>
+      <pre>    72/105: $display$0x58bc1c6c1be0:248$513_EN</pre>
+      <pre>    73/105: $display$0x58bc1c6c1be0:243$511_EN</pre>
+      <pre>    74/105: $display$0x58bc1c6c1be0:238$509_EN</pre>
+      <pre>    75/105: $display$0x58bc1c6c1be0:233$507_EN</pre>
+      <pre>    76/105: $display$0x58bc1c6c1be0:226$501_EN</pre>
+      <pre>    77/105: $display$0x58bc1c6c1be0:220$486_EN</pre>
+      <pre>    78/105: $display$0x58bc1c6c1be0:214$471_EN</pre>
+      <pre>    79/105: $display$0x58bc1c6c1be0:208$456_EN</pre>
+      <pre>    80/105: $display$0x58bc1c6c1be0:202$441_EN</pre>
+      <pre>    81/105: $display$0x58bc1c6c1be0:196$426_EN</pre>
+      <pre>    82/105: $display$0x58bc1c6c1be0:190$411_EN</pre>
+      <pre>    83/105: $display$0x58bc1c6c1be0:184$396_EN</pre>
+      <pre>    84/105: $display$0x58bc1c6c1be0:178$381_EN</pre>
+      <pre>    85/105: $display$0x58bc1c6c1be0:172$366_EN</pre>
+      <pre>    86/105: $display$0x58bc1c6c1be0:164$351_EN</pre>
+      <pre>    87/105: $display$0x58bc1c6c1be0:158$336_EN</pre>
+      <pre>    88/105: $display$0x58bc1c6c1be0:152$321_EN</pre>
+      <pre>    89/105: $display$0x58bc1c6c1be0:146$306_EN</pre>
+      <pre>    90/105: $display$0x58bc1c6c1be0:140$291_EN</pre>
+      <pre>    91/105: $display$0x58bc1c6c1be0:134$276_EN</pre>
+      <pre>    92/105: $display$0x58bc1c6c1be0:128$261_EN</pre>
+      <pre>    93/105: $display$0x58bc1c6c1be0:122$246_EN</pre>
+      <pre>    94/105: $display$0x58bc1c6c1be0:116$231_EN</pre>
+      <pre>    95/105: $display$0x58bc1c6c1be0:110$216_EN</pre>
+      <pre>    96/105: $display$0x58bc1c6c1be0:102$201_EN</pre>
+      <pre>    97/105: $display$0x58bc1c6c1be0:96$186_EN</pre>
+      <pre>    98/105: $display$0x58bc1c6c1be0:90$171_EN</pre>
+      <pre>    99/105: $display$0x58bc1c6c1be0:84$156_EN</pre>
+      <pre>   100/105: $display$0x58bc1c6c1be0:78$141_EN</pre>
+      <pre>   101/105: $display$0x58bc1c6c1be0:72$126_EN</pre>
+      <pre>   102/105: $display$0x58bc1c6c1be0:66$111_EN</pre>
+      <pre>   103/105: $display$0x58bc1c6c1be0:60$96_EN</pre>
+      <pre>   104/105: $display$0x58bc1c6c1be0:54$81_EN</pre>
+      <pre>   105/105: $display$0x58bc1c6c1be0:48$66_EN</pre>
+      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:23$49&#39;.</pre>
+      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:22$48&#39;.</pre>
+      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:16$47&#39;.</pre>
+      <pre>Creating decoders for process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:15$46&#39;.</pre>
       <pre></pre>
       <pre>3.8. Executing PROC_DLATCH pass (convert process syncs to latches).</pre>
-      <pre>No latch inferred for signal `\top.\passed&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>No latch inferred for signal `\top.\res_ab&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>No latch inferred for signal `\top.\res_cd&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:285$1&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:292$2&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:299$3&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:306$4&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:313$5&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>No latch inferred for signal `\top.\dr&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:23$49&#39;.</pre>
-      <pre>No latch inferred for signal `\top.\cr&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:22$48&#39;.</pre>
-      <pre>No latch inferred for signal `\top.\br&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:16$47&#39;.</pre>
-      <pre>No latch inferred for signal `\top.\ar&#39; from process `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:15$46&#39;.</pre>
+      <pre>No latch inferred for signal `\top.\passed&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>No latch inferred for signal `\top.\res_ab&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>No latch inferred for signal `\top.\res_cd&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:285$1&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:292$2&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:299$3&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:306$4&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>No latch inferred for signal `\top.$bitselwrite$rvalue$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:313$5&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>No latch inferred for signal `\top.\dr&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:23$49&#39;.</pre>
+      <pre>No latch inferred for signal `\top.\cr&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:22$48&#39;.</pre>
+      <pre>No latch inferred for signal `\top.\br&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:16$47&#39;.</pre>
+      <pre>No latch inferred for signal `\top.\ar&#39; from process `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:15$46&#39;.</pre>
       <pre></pre>
       <pre>3.9. Executing PROC_DFF pass (convert process syncs to FFs).</pre>
       <pre></pre>
       <pre>3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).</pre>
       <pre></pre>
       <pre>3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Found and cleaned up 51 empty switches in `\top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>Removing empty process `top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
-      <pre>Removing empty process `top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:23$49&#39;.</pre>
-      <pre>Removing empty process `top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:22$48&#39;.</pre>
-      <pre>Removing empty process `top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:16$47&#39;.</pre>
-      <pre>Removing empty process `top.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:15$46&#39;.</pre>
+      <pre>Found and cleaned up 51 empty switches in `\top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>Removing empty process `top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:40$50&#39;.</pre>
+      <pre>Removing empty process `top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:23$49&#39;.</pre>
+      <pre>Removing empty process `top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:22$48&#39;.</pre>
+      <pre>Removing empty process `top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:16$47&#39;.</pre>
+      <pre>Removing empty process `top.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr3054101c.v:15$46&#39;.</pre>
       <pre>Cleaned up 51 empty switches.</pre>
       <pre></pre>
       <pre>3.12. Executing OPT_EXPR pass (perform const folding).</pre>

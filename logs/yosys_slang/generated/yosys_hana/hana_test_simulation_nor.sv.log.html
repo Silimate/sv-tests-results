@@ -17,7 +17,7 @@
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/tests/generated/yosys_hana<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/tests/generated/yosys_hana<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,14 +32,14 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:36:49</dd></div>
-        <div><dt>time elapsed</dt><dd>0.032s</dd></div>
-        <div><dt>ram usage</dt><dd>25988 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:51:00</dd></div>
+        <div><dt>time elapsed</dt><dd>0.010s</dd></div>
+        <div><dt>ram usage</dt><dd>15348 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>yosys-slang -s /__w/sv-tests/sv-tests/out/tmp/tmpzg6q7o60/yosys-script</pre>
+      <pre>yosys-slang -s /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpe_1t6evw/yosys-script</pre>
       <pre></pre>
       <pre> /----------------------------------------------------------------------------\</pre>
       <pre> |  yosys -- Yosys Open SYnthesis Suite                                       |</pre>
@@ -48,233 +48,8 @@
       <pre> \----------------------------------------------------------------------------/</pre>
       <pre> Yosys 0.60+15 (git sha1 2e9db8b85, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmpzg6q7o60/yosys-script&#39; --</pre>
-      <pre></pre>
-      <pre>1. Executing SLANG frontend.</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:917:10: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @ (in1 or in2) begin</pre>
-      <pre>         ^~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:1022:10: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @ (in1 or in2) begin</pre>
-      <pre>         ^~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:944:10: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @ (in1 or in2) begin</pre>
-      <pre>         ^~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:1048:10: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @ (in1 or in2) begin</pre>
-      <pre>         ^~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:970:10: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @ (in1 or in2) begin</pre>
-      <pre>         ^~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:1074:10: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @ (in1 or in2) begin</pre>
-      <pre>         ^~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:996:10: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @ (in1 or in2) begin</pre>
-      <pre>         ^~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:150:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or enable)</pre>
-      <pre>        ^~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:163:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or enable)</pre>
-      <pre>        ^~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:178:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or enable)</pre>
-      <pre>        ^~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:197:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or enable)</pre>
-      <pre>        ^~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:223:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or enable)</pre>
-      <pre>        ^~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:266:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or enable)</pre>
-      <pre>        ^~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:1100:28: error: net type &#39;supply0&#39; unsupported</pre>
-      <pre>module GND (output supply0 out);</pre>
-      <pre>                           ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:745:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @( d or enable)</pre>
-      <pre>        ^~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:761:10: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @ (in, shift, val) begin</pre>
-      <pre>         ^~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:806:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:775:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:816:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:785:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:826:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:796:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:380:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @( in or select)</pre>
-      <pre>        ^~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:343:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @( in or select)</pre>
-      <pre>        ^~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:403:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @( in or select)</pre>
-      <pre>        ^~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:353:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @( in or select)</pre>
-      <pre>        ^~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:442:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @( in or select)</pre>
-      <pre>        ^~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:365:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @( in or select)</pre>
-      <pre>        ^~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:751:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @( d or enable or reset)</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:725:9: error: multiple asynchronous loads unsupported</pre>
-      <pre>always @(posedge clk or posedge reset or posedge set)</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:835:10: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @ (in, shift, val) begin</pre>
-      <pre>         ^~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:884:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:848:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:896:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:861:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:907:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:872:9: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>always @(in or shift or val) begin</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:735:9: error: multiple asynchronous loads unsupported</pre>
-      <pre>always @(posedge clk or posedge set or posedge reset)</pre>
-      <pre>        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/yosys/tests/hana/hana_vlib.v:1097:28: error: net type &#39;supply1&#39; unsupported</pre>
-      <pre>module VCC (output supply1 out);</pre>
-      <pre>                           ^</pre>
-      <pre>Top level design units:</pre>
-      <pre>    ADD1</pre>
-      <pre>    ADD16</pre>
-      <pre>    ADD2</pre>
-      <pre>    ADD32</pre>
-      <pre>    ADD4</pre>
-      <pre>    ADD64</pre>
-      <pre>    ADD8</pre>
-      <pre>    AND2</pre>
-      <pre>    AND3</pre>
-      <pre>    AND4</pre>
-      <pre>    BUF</pre>
-      <pre>    CMP1</pre>
-      <pre>    CMP16</pre>
-      <pre>    CMP2</pre>
-      <pre>    CMP32</pre>
-      <pre>    CMP4</pre>
-      <pre>    CMP64</pre>
-      <pre>    CMP8</pre>
-      <pre>    DEC1</pre>
-      <pre>    DEC2</pre>
-      <pre>    DEC3</pre>
-      <pre>    DEC4</pre>
-      <pre>    DEC5</pre>
-      <pre>    DEC6</pre>
-      <pre>    DIV1</pre>
-      <pre>    DIV16</pre>
-      <pre>    DIV2</pre>
-      <pre>    DIV32</pre>
-      <pre>    DIV4</pre>
-      <pre>    DIV64</pre>
-      <pre>    DIV8</pre>
-      <pre>    FF</pre>
-      <pre>    GND</pre>
-      <pre>    INC1</pre>
-      <pre>    INC16</pre>
-      <pre>    INC2</pre>
-      <pre>    INC32</pre>
-      <pre>    INC4</pre>
-      <pre>    INC64</pre>
-      <pre>    INC8</pre>
-      <pre>    INV</pre>
-      <pre>    LATCH</pre>
-      <pre>    LSHIFT1</pre>
-      <pre>    LSHIFT16</pre>
-      <pre>    LSHIFT2</pre>
-      <pre>    LSHIFT32</pre>
-      <pre>    LSHIFT4</pre>
-      <pre>    LSHIFT64</pre>
-      <pre>    LSHIFT8</pre>
-      <pre>    MUL1</pre>
-      <pre>    MUL16</pre>
-      <pre>    MUL2</pre>
-      <pre>    MUL32</pre>
-      <pre>    MUL4</pre>
-      <pre>    MUL64</pre>
-      <pre>    MUL8</pre>
-      <pre>    MUX16</pre>
-      <pre>    MUX2</pre>
-      <pre>    MUX32</pre>
-      <pre>    MUX4</pre>
-      <pre>    MUX64</pre>
-      <pre>    MUX8</pre>
-      <pre>    NAND2</pre>
-      <pre>    NAND3</pre>
-      <pre>    NAND4</pre>
-      <pre>    NOR2</pre>
-      <pre>    NOR3</pre>
-      <pre>    NOR4</pre>
-      <pre>    OR2</pre>
-      <pre>    OR3</pre>
-      <pre>    OR4</pre>
-      <pre>    RFF</pre>
-      <pre>    RLATCH</pre>
-      <pre>    RSFF</pre>
-      <pre>    RSHIFT1</pre>
-      <pre>    RSHIFT16</pre>
-      <pre>    RSHIFT2</pre>
-      <pre>    RSHIFT32</pre>
-      <pre>    RSHIFT4</pre>
-      <pre>    RSHIFT64</pre>
-      <pre>    RSHIFT8</pre>
-      <pre>    SFF</pre>
-      <pre>    SRFF</pre>
-      <pre>    SUB1</pre>
-      <pre>    SUB16</pre>
-      <pre>    SUB2</pre>
-      <pre>    SUB32</pre>
-      <pre>    SUB4</pre>
-      <pre>    SUB64</pre>
-      <pre>    SUB8</pre>
-      <pre>    TRIBUF</pre>
-      <pre>    VCC</pre>
-      <pre>    XNOR2</pre>
-      <pre>    XNOR3</pre>
-      <pre>    XNOR4</pre>
-      <pre>    XOR2</pre>
-      <pre>    XOR3</pre>
-      <pre>    XOR4</pre>
-      <pre>    f1_test</pre>
-      <pre>    f2_test</pre>
-      <pre>    f3_test</pre>
-      <pre>    f4_test</pre>
-      <pre></pre>
-      <pre></pre>
-      <pre>Build failed: 4 errors, 35 warnings</pre>
-      <pre>ERROR: Compilation failed</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpe_1t6evw/yosys-script&#39; --</pre>
+      <pre>ERROR: init_share_dirname: unable to determine share/ directory!</pre>
       <pre></pre>
     </section>
   </body>

@@ -5,20 +5,20 @@
     <link rel="stylesheet" type="text/css" href="../../../../log.css">
   </head>
   <body>
-    <header class="test-passed">
+    <header class="test-failed">
         <a href="https://github.com/povik/yosys-slang/tree/d4053e825408a25dc2c065cd430b4cc5e71b1b6c" target="_blank"><h1>yosys-slang</h1></a>
         <h2>regress-vlg_dcomp1_iv</h2>
     </header>
     <section class="property-list">
       <dl>
         <div><dt>description</dt><dd>Test imported from ivtest</dd></div>
-        <div><dt>rc</dt><dd>0 (means success: 1)</dd></div>
+        <div><dt>rc</dt><dd>1 (means success: 0)</dd></div>
         <div><dt>tags</dt><dd>ivtest</dd></div>
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest<li>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,14 +32,14 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:34:21</dd></div>
-        <div><dt>time elapsed</dt><dd>0.015s</dd></div>
-        <div><dt>ram usage</dt><dd>27832 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:50:11</dd></div>
+        <div><dt>time elapsed</dt><dd>0.010s</dd></div>
+        <div><dt>ram usage</dt><dd>15536 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>yosys-slang -s /__w/sv-tests/sv-tests/out/tmp/tmpy8gnrskt/yosys-script</pre>
+      <pre>yosys-slang -s /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmp8__wf4q4/yosys-script</pre>
       <pre></pre>
       <pre> /----------------------------------------------------------------------------\</pre>
       <pre> |  yosys -- Yosys Open SYnthesis Suite                                       |</pre>
@@ -48,253 +48,8 @@
       <pre> \----------------------------------------------------------------------------/</pre>
       <pre> Yosys 0.60+15 (git sha1 2e9db8b85, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmpy8gnrskt/yosys-script&#39; --</pre>
-      <pre></pre>
-      <pre>1. Executing SLANG frontend.</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/dcomp1.v:27:13: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>   always @(internal_Clk) begin</pre>
-      <pre>            ^~~~~~~~~~~~</pre>
-      <pre>Top level design units:</pre>
-      <pre>    dcomp</pre>
-      <pre></pre>
-      <pre></pre>
-      <pre>Build succeeded: 0 errors, 1 warning</pre>
-      <pre></pre>
-      <pre>1.1. Executing UNDRIVEN pass. (resolve undriven signals)</pre>
-      <pre></pre>
-      <pre>1.2. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Found and cleaned up 1 empty switch in `\dcomp.$2&#39;.</pre>
-      <pre>Removing empty process `dcomp.$0&#39;.</pre>
-      <pre>Cleaned up 1 empty switch.</pre>
-      <pre></pre>
-      <pre>1.3. Executing TRIBUF pass.</pre>
-      <pre></pre>
-      <pre>1.4. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Removed a total of 0 dead cases.</pre>
-      <pre></pre>
-      <pre>1.5. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
-      <pre>Removed 1 redundant assignment.</pre>
-      <pre>Promoted 1 assignment to connection.</pre>
-      <pre></pre>
-      <pre>1.6. Executing PROC_INIT pass (extract init attributes).</pre>
-      <pre></pre>
-      <pre>1.7. Executing PROC_ROM pass (convert switches to ROMs).</pre>
-      <pre>Converted 0 switches.</pre>
-      <pre></pre>
-      <pre>1.8. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre>Creating decoders for process `\dcomp.$2&#39;.</pre>
-      <pre></pre>
-      <pre>1.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Removing empty process `dcomp.$2&#39;.</pre>
-      <pre>Cleaned up 0 empty switches.</pre>
-      <pre></pre>
-      <pre>1.10. Executing OPT_EXPR pass (perform const folding).</pre>
-      <pre>Optimizing module dcomp.</pre>
-      <pre>Couldn&#39;t topologically sort cells, optimizing module dcomp may take a longer time.</pre>
-      <pre>&lt;suppressed ~1 debug messages&gt;</pre>
-      <pre></pre>
-      <pre>2. Executing HIERARCHY pass (managing design hierarchy).</pre>
-      <pre>Attribute `top&#39; found on module `dcomp&#39;. Setting top module to dcomp.</pre>
-      <pre></pre>
-      <pre>2.1. Analyzing design hierarchy..</pre>
-      <pre>Top module:  \dcomp</pre>
-      <pre></pre>
-      <pre>2.2. Analyzing design hierarchy..</pre>
-      <pre>Top module:  \dcomp</pre>
-      <pre>Removed 0 unused modules.</pre>
-      <pre>Module dcomp directly or indirectly displays text -&gt; setting &#34;keep&#34; attribute.</pre>
-      <pre></pre>
-      <pre>3. Executing PROC pass (convert processes to netlists).</pre>
-      <pre></pre>
-      <pre>3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Cleaned up 0 empty switches.</pre>
-      <pre></pre>
-      <pre>3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Removed a total of 0 dead cases.</pre>
-      <pre></pre>
-      <pre>3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
-      <pre>Removed 0 redundant assignments.</pre>
-      <pre>Promoted 0 assignments to connections.</pre>
-      <pre></pre>
-      <pre>3.4. Executing PROC_INIT pass (extract init attributes).</pre>
-      <pre></pre>
-      <pre>3.5. Executing PROC_ARST pass (detect async resets in processes).</pre>
-      <pre></pre>
-      <pre>3.6. Executing PROC_ROM pass (convert switches to ROMs).</pre>
-      <pre>Converted 0 switches.</pre>
-      <pre></pre>
-      <pre>3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre></pre>
-      <pre>3.8. Executing PROC_DLATCH pass (convert process syncs to latches).</pre>
-      <pre></pre>
-      <pre>3.9. Executing PROC_DFF pass (convert process syncs to FFs).</pre>
-      <pre></pre>
-      <pre>3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).</pre>
-      <pre></pre>
-      <pre>3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Cleaned up 0 empty switches.</pre>
-      <pre></pre>
-      <pre>3.12. Executing OPT_EXPR pass (perform const folding).</pre>
-      <pre>Optimizing module dcomp.</pre>
-      <pre></pre>
-      <pre>4. Executing CHECK pass (checking for obvious problems).</pre>
-      <pre>Checking module dcomp...</pre>
-      <pre>Warning: Wire dcomp.\phdelay [63] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [62] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [61] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [60] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [59] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [58] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [57] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [56] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [55] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [54] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [53] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [52] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [51] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [50] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [49] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [48] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [47] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [46] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [45] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [44] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [43] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [42] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [41] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [40] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [39] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [38] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [37] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [36] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [35] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [34] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [33] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [32] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [31] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [30] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [29] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [28] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [27] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [26] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [25] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [24] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [23] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [22] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [21] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [20] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [19] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [18] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [17] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [16] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [15] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [14] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [13] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [12] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [11] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [10] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [9] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [8] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [7] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [6] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [5] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [4] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [3] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [2] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [1] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [0] is used but has no driver.</pre>
-      <pre>Found and reported 64 problems.</pre>
-      <pre></pre>
-      <pre>5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).</pre>
-      <pre></pre>
-      <pre>6. Executing MEMORY_COLLECT pass (generating $mem cells).</pre>
-      <pre></pre>
-      <pre>7. Printing statistics.</pre>
-      <pre></pre>
-      <pre>=== dcomp ===</pre>
-      <pre></pre>
-      <pre>        +----------Local Count, excluding submodules.</pre>
-      <pre>        | </pre>
-      <pre>        7 wires</pre>
-      <pre>      196 wire bits</pre>
-      <pre>        4 public wires</pre>
-      <pre>      130 public wire bits</pre>
-      <pre>        2 cells</pre>
-      <pre>        1   $add</pre>
-      <pre>        1   $print</pre>
-      <pre></pre>
-      <pre>8. Executing CHECK pass (checking for obvious problems).</pre>
-      <pre>Checking module dcomp...</pre>
-      <pre>Warning: Wire dcomp.\phdelay [63] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [62] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [61] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [60] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [59] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [58] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [57] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [56] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [55] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [54] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [53] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [52] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [51] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [50] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [49] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [48] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [47] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [46] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [45] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [44] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [43] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [42] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [41] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [40] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [39] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [38] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [37] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [36] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [35] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [34] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [33] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [32] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [31] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [30] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [29] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [28] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [27] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [26] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [25] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [24] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [23] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [22] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [21] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [20] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [19] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [18] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [17] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [16] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [15] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [14] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [13] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [12] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [11] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [10] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [9] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [8] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [7] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [6] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [5] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [4] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [3] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [2] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [1] is used but has no driver.</pre>
-      <pre>Warning: Wire dcomp.\phdelay [0] is used but has no driver.</pre>
-      <pre>Found and reported 64 problems.</pre>
-      <pre></pre>
-      <pre>Warnings: 64 unique messages, 128 total</pre>
-      <pre>End of script. Logfile hash: 119e3cb175, CPU: user 0.01s system 0.00s, MEM: 24.02 MB peak</pre>
-      <pre>Yosys 0.60+15 (git sha1 2e9db8b85, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)</pre>
-      <pre>Time spent: 31% 2x read_slang (0 sec), 21% 2x opt_expr (0 sec), ...</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmp8__wf4q4/yosys-script&#39; --</pre>
+      <pre>ERROR: init_share_dirname: unable to determine share/ directory!</pre>
       <pre></pre>
     </section>
   </body>

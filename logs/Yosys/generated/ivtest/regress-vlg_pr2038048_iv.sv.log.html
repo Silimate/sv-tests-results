@@ -17,8 +17,8 @@
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest<li>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,16 +32,16 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:33:25</dd></div>
-        <div><dt>time elapsed</dt><dd>0.020s</dd></div>
-        <div><dt>ram usage</dt><dd>22888 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:08:45</dd></div>
+        <div><dt>time elapsed</dt><dd>0.023s</dd></div>
+        <div><dt>ram usage</dt><dd>22824 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>sh /__w/sv-tests/sv-tests/out/tmp/tmp99n1nsp7/run.sh</pre>
-      <pre>+ cat /__w/sv-tests/sv-tests/out/tmp/tmp99n1nsp7/scr.ys</pre>
-      <pre>read_verilog  -sv -nodisplay  -I /__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest -I /__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests  <a href="../../../../third_party/tools/icarus/ivtest/ivltests/pr2038048.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/pr2038048.v</a></pre>
+      <pre>sh /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmphm24n3jp/run.sh</pre>
+      <pre>+ cat /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmphm24n3jp/scr.ys</pre>
+      <pre>read_verilog  -sv -nodisplay  -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests  <a href="../../../../third_party/tools/icarus/ivtest/ivltests/pr2038048.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/pr2038048.v</a></pre>
       <pre>hierarchy -auto-top</pre>
       <pre>proc</pre>
       <pre>check</pre>
@@ -51,9 +51,9 @@
       <pre>stat</pre>
       <pre>check</pre>
       <pre>sim -assert</pre>
-      <pre>+ yosys -Q -T /__w/sv-tests/sv-tests/out/tmp/tmp99n1nsp7/scr.ys</pre>
+      <pre>+ yosys -Q -T /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmphm24n3jp/scr.ys</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmp99n1nsp7/scr.ys&#39; --</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmphm24n3jp/scr.ys&#39; --</pre>
       <pre></pre>
       <pre>1. Executing Verilog-2005 frontend: <a href="../../../../third_party/tools/icarus/ivtest/ivltests/pr2038048.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/pr2038048.v</a></pre>
       <pre>Parsing SystemVerilog input from `<a href="../../../../third_party/tools/icarus/ivtest/ivltests/pr2038048.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/pr2038048.v</a>&#39; to AST representation.</pre>
@@ -84,7 +84,7 @@
       <pre>Cleaned up 0 empty switches.</pre>
       <pre></pre>
       <pre>3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Marked 1 switch rules as full_case in process $proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20 in module array_word_part_select.</pre>
+      <pre>Marked 1 switch rules as full_case in process $proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20 in module array_word_part_select.</pre>
       <pre>Removed a total of 0 dead cases.</pre>
       <pre></pre>
       <pre>3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
@@ -92,7 +92,7 @@
       <pre>Promoted 21 assignments to connections.</pre>
       <pre></pre>
       <pre>3.4. Executing PROC_INIT pass (extract init attributes).</pre>
-      <pre>Found init rule in `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:5$44&#39;.</pre>
+      <pre>Found init rule in `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:5$44&#39;.</pre>
       <pre>  Set init value: \pass = 1&#39;1</pre>
       <pre></pre>
       <pre>3.5. Executing PROC_ARST pass (detect async resets in processes).</pre>
@@ -102,47 +102,47 @@
       <pre>&lt;suppressed ~2 debug messages&gt;</pre>
       <pre></pre>
       <pre>3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre>Creating decoders for process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>     1/1: $display$0x559a13952620:25$62_EN</pre>
-      <pre>Creating decoders for process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:5$44&#39;.</pre>
-      <pre>Creating decoders for process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:14$25&#39;.</pre>
-      <pre>Creating decoders for process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20&#39;.</pre>
+      <pre>Creating decoders for process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>     1/1: $display$0x5e08f8bb9720:25$62_EN</pre>
+      <pre>Creating decoders for process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:5$44&#39;.</pre>
+      <pre>Creating decoders for process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:14$25&#39;.</pre>
+      <pre>Creating decoders for process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20&#39;.</pre>
       <pre>     1/2: $1\pass[0:0]</pre>
-      <pre>     2/2: $display$0x559a13952620:31$23_EN</pre>
+      <pre>     2/2: $display$0x5e08f8bb9720:31$23_EN</pre>
       <pre></pre>
       <pre>3.8. Executing PROC_DLATCH pass (convert process syncs to latches).</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.\i&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.\Index&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$4_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$5_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$6_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$7_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$8_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$9_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$10_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$11_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$12_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$13_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$14_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$15_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$16_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$17_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$18_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$19_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>No latch inferred for signal `\array_word_part_select.$mem2bits$\Data$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:14$3&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:14$25&#39;.</pre>
-      <pre>Latch inferred for signal `\array_word_part_select.\pass&#39; from process `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20&#39;: $auto$proc_dlatch.cc:432:proc_dlatch$81</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.\i&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.\Index&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$4_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$5_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$6_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$7_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$8_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$9_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$10_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$11_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$12_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$13_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$14_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$15_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$16_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$17_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$18_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$memwr$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:20$19_EN&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>No latch inferred for signal `\array_word_part_select.$mem2bits$\Data$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:14$3&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:14$25&#39;.</pre>
+      <pre>Latch inferred for signal `\array_word_part_select.\pass&#39; from process `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20&#39;: $auto$proc_dlatch.cc:432:proc_dlatch$81</pre>
       <pre></pre>
       <pre>3.9. Executing PROC_DFF pass (convert process syncs to FFs).</pre>
       <pre></pre>
       <pre>3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).</pre>
       <pre></pre>
       <pre>3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Found and cleaned up 1 empty switch in `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>Removing empty process `array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
-      <pre>Removing empty process `array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:5$44&#39;.</pre>
-      <pre>Removing empty process `array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:14$25&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20&#39;.</pre>
-      <pre>Removing empty process `array_word_part_select.$proc$/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20&#39;.</pre>
+      <pre>Found and cleaned up 1 empty switch in `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>Removing empty process `array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:18$45&#39;.</pre>
+      <pre>Removing empty process `array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:5$44&#39;.</pre>
+      <pre>Removing empty process `array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:14$25&#39;.</pre>
+      <pre>Found and cleaned up 1 empty switch in `\array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20&#39;.</pre>
+      <pre>Removing empty process `array_word_part_select.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests/pr2038048.v:28$20&#39;.</pre>
       <pre>Cleaned up 2 empty switches.</pre>
       <pre></pre>
       <pre>3.12. Executing OPT_EXPR pass (perform const folding).</pre>

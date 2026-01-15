@@ -1,10 +1,10 @@
 # Changes In Tests
 |   Tool    |New Failures|New Passes|Added|Removed|Not Affected|
 |-----------|-----------:|---------:|----:|------:|-----------:|
-|Yosys      |           0|         1|    0|      0|        4720|
-|Slang      |           0|         0|    0|      0|        5062|
-|Verilator  |          43|        11|    0|      0|        5013|
-|Icarus     |           0|         0|    0|      0|        5067|
 |Verible    |           0|         0|    0|      0|        4908|
-|yosys_slang|           0|         0|    0|      0|        4258|
 |Slang_parse|           0|         0|    0|      0|        4999|
+|Icarus     |           0|         2|    0|      0|        5065|
+|yosys_slang|        3203|         2|    0|      0|        1053|
+|Slang      |           0|         0|    0|      0|        5062|
+|Verilator  |           0|        42|    0|      0|        5025|
+|Yosys      |           1|         3|    0|      0|        4717|

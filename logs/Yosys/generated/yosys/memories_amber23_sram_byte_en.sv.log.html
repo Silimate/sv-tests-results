@@ -17,7 +17,7 @@
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,17 +32,17 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:34:20</dd></div>
-        <div><dt>time elapsed</dt><dd>0.259s</dd></div>
-        <div><dt>ram usage</dt><dd>29540 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:09:18</dd></div>
+        <div><dt>time elapsed</dt><dd>0.204s</dd></div>
+        <div><dt>ram usage</dt><dd>29592 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>sh /__w/sv-tests/sv-tests/out/tmp/tmpqgwlnrq9/run.sh</pre>
-      <pre>+ cat /__w/sv-tests/sv-tests/out/tmp/tmpqgwlnrq9/scr.ys</pre>
-      <pre>read_verilog  -sv   -I /__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories  <a href="../../../../tests/generated/yosys/memories_amber23_sram_byte_en.sv.html" target="file-frame">tests/generated/yosys/memories_amber23_sram_byte_en.sv</a></pre>
-      <pre>read_verilog  -sv   -I /__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories  <a href="../../../../third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v.html" target="file-frame">third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v</a></pre>
+      <pre>sh /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpuo_oic4u/run.sh</pre>
+      <pre>+ cat /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpuo_oic4u/scr.ys</pre>
+      <pre>read_verilog  -sv   -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories  <a href="../../../../tests/generated/yosys/memories_amber23_sram_byte_en.sv.html" target="file-frame">tests/generated/yosys/memories_amber23_sram_byte_en.sv</a></pre>
+      <pre>read_verilog  -sv   -I /__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories  <a href="../../../../third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v.html" target="file-frame">third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v</a></pre>
       <pre>hierarchy -auto-top</pre>
       <pre>proc</pre>
       <pre>check</pre>
@@ -51,9 +51,9 @@
       <pre>memory_collect</pre>
       <pre>stat</pre>
       <pre>check</pre>
-      <pre>+ yosys -Q -T /__w/sv-tests/sv-tests/out/tmp/tmpqgwlnrq9/scr.ys</pre>
+      <pre>+ yosys -Q -T /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpuo_oic4u/scr.ys</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmpqgwlnrq9/scr.ys&#39; --</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpuo_oic4u/scr.ys&#39; --</pre>
       <pre></pre>
       <pre>1. Executing Verilog-2005 frontend: <a href="../../../../tests/generated/yosys/memories_amber23_sram_byte_en.sv.html" target="file-frame">tests/generated/yosys/memories_amber23_sram_byte_en.sv</a></pre>
       <pre>Parsing SystemVerilog input from `<a href="../../../../tests/generated/yosys/memories_amber23_sram_byte_en.sv.html" target="file-frame">tests/generated/yosys/memories_amber23_sram_byte_en.sv</a>&#39; to AST representation.</pre>
@@ -85,7 +85,7 @@
       <pre>Cleaned up 0 empty switches.</pre>
       <pre></pre>
       <pre>4.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Marked 1 switch rules as full_case in process $proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66 in module generic_sram_byte_en.</pre>
+      <pre>Marked 1 switch rules as full_case in process $proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66 in module generic_sram_byte_en.</pre>
       <pre>Removed a total of 0 dead cases.</pre>
       <pre></pre>
       <pre>4.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
@@ -101,406 +101,406 @@
       <pre>&lt;suppressed ~1 debug messages&gt;</pre>
       <pre></pre>
       <pre>4.7. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre>Creating decoders for process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating decoders for process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>     1/129: $1\i[31:0]</pre>
-      <pre>     2/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_EN[31:0]$324</pre>
-      <pre>     3/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_DATA[31:0]$323</pre>
-      <pre>     4/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_ADDR[3:0]$322</pre>
-      <pre>     5/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$64[31:0]$321</pre>
-      <pre>     6/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_EN[31:0]$320</pre>
-      <pre>     7/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_DATA[31:0]$319</pre>
-      <pre>     8/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_ADDR[3:0]$318</pre>
-      <pre>     9/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$62[31:0]$317</pre>
-      <pre>    10/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_EN[31:0]$316</pre>
-      <pre>    11/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_DATA[31:0]$315</pre>
-      <pre>    12/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_ADDR[3:0]$314</pre>
-      <pre>    13/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$60[31:0]$313</pre>
-      <pre>    14/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_EN[31:0]$312</pre>
-      <pre>    15/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_DATA[31:0]$311</pre>
-      <pre>    16/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_ADDR[3:0]$310</pre>
-      <pre>    17/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$58[31:0]$309</pre>
-      <pre>    18/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_EN[31:0]$308</pre>
-      <pre>    19/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_DATA[31:0]$307</pre>
-      <pre>    20/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_ADDR[3:0]$306</pre>
-      <pre>    21/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$56[31:0]$305</pre>
-      <pre>    22/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_EN[31:0]$304</pre>
-      <pre>    23/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_DATA[31:0]$303</pre>
-      <pre>    24/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_ADDR[3:0]$302</pre>
-      <pre>    25/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$54[31:0]$301</pre>
-      <pre>    26/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_EN[31:0]$300</pre>
-      <pre>    27/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_DATA[31:0]$299</pre>
-      <pre>    28/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_ADDR[3:0]$298</pre>
-      <pre>    29/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$52[31:0]$297</pre>
-      <pre>    30/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_EN[31:0]$296</pre>
-      <pre>    31/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_DATA[31:0]$295</pre>
-      <pre>    32/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_ADDR[3:0]$294</pre>
-      <pre>    33/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$50[31:0]$293</pre>
-      <pre>    34/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_EN[31:0]$292</pre>
-      <pre>    35/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_DATA[31:0]$291</pre>
-      <pre>    36/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_ADDR[3:0]$290</pre>
-      <pre>    37/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$48[31:0]$289</pre>
-      <pre>    38/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_EN[31:0]$288</pre>
-      <pre>    39/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_DATA[31:0]$287</pre>
-      <pre>    40/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_ADDR[3:0]$286</pre>
-      <pre>    41/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$46[31:0]$285</pre>
-      <pre>    42/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_EN[31:0]$284</pre>
-      <pre>    43/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_DATA[31:0]$283</pre>
-      <pre>    44/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_ADDR[3:0]$282</pre>
-      <pre>    45/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$44[31:0]$281</pre>
-      <pre>    46/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_EN[31:0]$280</pre>
-      <pre>    47/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_DATA[31:0]$279</pre>
-      <pre>    48/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_ADDR[3:0]$278</pre>
-      <pre>    49/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$42[31:0]$277</pre>
-      <pre>    50/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_EN[31:0]$276</pre>
-      <pre>    51/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_DATA[31:0]$275</pre>
-      <pre>    52/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_ADDR[3:0]$274</pre>
-      <pre>    53/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$40[31:0]$273</pre>
-      <pre>    54/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_EN[31:0]$272</pre>
-      <pre>    55/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_DATA[31:0]$271</pre>
-      <pre>    56/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_ADDR[3:0]$270</pre>
-      <pre>    57/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$38[31:0]$269</pre>
-      <pre>    58/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_EN[31:0]$268</pre>
-      <pre>    59/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_DATA[31:0]$267</pre>
-      <pre>    60/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_ADDR[3:0]$266</pre>
-      <pre>    61/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$36[31:0]$265</pre>
-      <pre>    62/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_EN[31:0]$264</pre>
-      <pre>    63/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_DATA[31:0]$263</pre>
-      <pre>    64/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_ADDR[3:0]$262</pre>
-      <pre>    65/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$34[31:0]$261</pre>
-      <pre>    66/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_EN[31:0]$260</pre>
-      <pre>    67/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_DATA[31:0]$259</pre>
-      <pre>    68/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_ADDR[3:0]$258</pre>
-      <pre>    69/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$32[31:0]$257</pre>
-      <pre>    70/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_EN[31:0]$256</pre>
-      <pre>    71/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_DATA[31:0]$255</pre>
-      <pre>    72/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_ADDR[3:0]$254</pre>
-      <pre>    73/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$30[31:0]$253</pre>
-      <pre>    74/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_EN[31:0]$252</pre>
-      <pre>    75/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_DATA[31:0]$251</pre>
-      <pre>    76/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_ADDR[3:0]$250</pre>
-      <pre>    77/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$28[31:0]$249</pre>
-      <pre>    78/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_EN[31:0]$248</pre>
-      <pre>    79/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_DATA[31:0]$247</pre>
-      <pre>    80/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_ADDR[3:0]$246</pre>
-      <pre>    81/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$26[31:0]$245</pre>
-      <pre>    82/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_EN[31:0]$244</pre>
-      <pre>    83/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_DATA[31:0]$243</pre>
-      <pre>    84/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_ADDR[3:0]$242</pre>
-      <pre>    85/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$24[31:0]$241</pre>
-      <pre>    86/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_EN[31:0]$240</pre>
-      <pre>    87/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_DATA[31:0]$239</pre>
-      <pre>    88/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_ADDR[3:0]$238</pre>
-      <pre>    89/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$22[31:0]$237</pre>
-      <pre>    90/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_EN[31:0]$236</pre>
-      <pre>    91/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_DATA[31:0]$235</pre>
-      <pre>    92/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_ADDR[3:0]$234</pre>
-      <pre>    93/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$20[31:0]$233</pre>
-      <pre>    94/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_EN[31:0]$232</pre>
-      <pre>    95/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_DATA[31:0]$231</pre>
-      <pre>    96/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_ADDR[3:0]$230</pre>
-      <pre>    97/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$18[31:0]$229</pre>
-      <pre>    98/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_EN[31:0]$228</pre>
-      <pre>    99/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_DATA[31:0]$227</pre>
-      <pre>   100/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_ADDR[3:0]$226</pre>
-      <pre>   101/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$16[31:0]$225</pre>
-      <pre>   102/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_EN[31:0]$224</pre>
-      <pre>   103/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_DATA[31:0]$223</pre>
-      <pre>   104/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_ADDR[3:0]$222</pre>
-      <pre>   105/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$14[31:0]$221</pre>
-      <pre>   106/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_EN[31:0]$220</pre>
-      <pre>   107/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_DATA[31:0]$219</pre>
-      <pre>   108/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_ADDR[3:0]$218</pre>
-      <pre>   109/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$12[31:0]$217</pre>
-      <pre>   110/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_EN[31:0]$216</pre>
-      <pre>   111/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_DATA[31:0]$215</pre>
-      <pre>   112/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_ADDR[3:0]$214</pre>
-      <pre>   113/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$10[31:0]$213</pre>
-      <pre>   114/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_EN[31:0]$212</pre>
-      <pre>   115/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_DATA[31:0]$211</pre>
-      <pre>   116/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_ADDR[3:0]$210</pre>
-      <pre>   117/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$8[31:0]$209</pre>
-      <pre>   118/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_EN[31:0]$208</pre>
-      <pre>   119/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_DATA[31:0]$207</pre>
-      <pre>   120/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_ADDR[3:0]$206</pre>
-      <pre>   121/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$6[31:0]$205</pre>
-      <pre>   122/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_EN[31:0]$204</pre>
-      <pre>   123/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_DATA[31:0]$203</pre>
-      <pre>   124/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_ADDR[3:0]$202</pre>
-      <pre>   125/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$4[31:0]$201</pre>
-      <pre>   126/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_EN[31:0]$200</pre>
-      <pre>   127/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_DATA[31:0]$199</pre>
-      <pre>   128/129: $1$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_ADDR[3:0]$198</pre>
-      <pre>   129/129: $1$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$2[31:0]$197</pre>
+      <pre>     2/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_EN[31:0]$324</pre>
+      <pre>     3/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_DATA[31:0]$323</pre>
+      <pre>     4/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_ADDR[3:0]$322</pre>
+      <pre>     5/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$64[31:0]$321</pre>
+      <pre>     6/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_EN[31:0]$320</pre>
+      <pre>     7/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_DATA[31:0]$319</pre>
+      <pre>     8/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_ADDR[3:0]$318</pre>
+      <pre>     9/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$62[31:0]$317</pre>
+      <pre>    10/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_EN[31:0]$316</pre>
+      <pre>    11/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_DATA[31:0]$315</pre>
+      <pre>    12/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_ADDR[3:0]$314</pre>
+      <pre>    13/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$60[31:0]$313</pre>
+      <pre>    14/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_EN[31:0]$312</pre>
+      <pre>    15/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_DATA[31:0]$311</pre>
+      <pre>    16/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_ADDR[3:0]$310</pre>
+      <pre>    17/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$58[31:0]$309</pre>
+      <pre>    18/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_EN[31:0]$308</pre>
+      <pre>    19/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_DATA[31:0]$307</pre>
+      <pre>    20/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_ADDR[3:0]$306</pre>
+      <pre>    21/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$56[31:0]$305</pre>
+      <pre>    22/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_EN[31:0]$304</pre>
+      <pre>    23/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_DATA[31:0]$303</pre>
+      <pre>    24/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_ADDR[3:0]$302</pre>
+      <pre>    25/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$54[31:0]$301</pre>
+      <pre>    26/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_EN[31:0]$300</pre>
+      <pre>    27/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_DATA[31:0]$299</pre>
+      <pre>    28/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_ADDR[3:0]$298</pre>
+      <pre>    29/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$52[31:0]$297</pre>
+      <pre>    30/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_EN[31:0]$296</pre>
+      <pre>    31/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_DATA[31:0]$295</pre>
+      <pre>    32/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_ADDR[3:0]$294</pre>
+      <pre>    33/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$50[31:0]$293</pre>
+      <pre>    34/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_EN[31:0]$292</pre>
+      <pre>    35/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_DATA[31:0]$291</pre>
+      <pre>    36/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_ADDR[3:0]$290</pre>
+      <pre>    37/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$48[31:0]$289</pre>
+      <pre>    38/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_EN[31:0]$288</pre>
+      <pre>    39/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_DATA[31:0]$287</pre>
+      <pre>    40/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_ADDR[3:0]$286</pre>
+      <pre>    41/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$46[31:0]$285</pre>
+      <pre>    42/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_EN[31:0]$284</pre>
+      <pre>    43/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_DATA[31:0]$283</pre>
+      <pre>    44/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_ADDR[3:0]$282</pre>
+      <pre>    45/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$44[31:0]$281</pre>
+      <pre>    46/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_EN[31:0]$280</pre>
+      <pre>    47/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_DATA[31:0]$279</pre>
+      <pre>    48/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_ADDR[3:0]$278</pre>
+      <pre>    49/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$42[31:0]$277</pre>
+      <pre>    50/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_EN[31:0]$276</pre>
+      <pre>    51/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_DATA[31:0]$275</pre>
+      <pre>    52/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_ADDR[3:0]$274</pre>
+      <pre>    53/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$40[31:0]$273</pre>
+      <pre>    54/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_EN[31:0]$272</pre>
+      <pre>    55/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_DATA[31:0]$271</pre>
+      <pre>    56/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_ADDR[3:0]$270</pre>
+      <pre>    57/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$38[31:0]$269</pre>
+      <pre>    58/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_EN[31:0]$268</pre>
+      <pre>    59/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_DATA[31:0]$267</pre>
+      <pre>    60/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_ADDR[3:0]$266</pre>
+      <pre>    61/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$36[31:0]$265</pre>
+      <pre>    62/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_EN[31:0]$264</pre>
+      <pre>    63/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_DATA[31:0]$263</pre>
+      <pre>    64/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_ADDR[3:0]$262</pre>
+      <pre>    65/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$34[31:0]$261</pre>
+      <pre>    66/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_EN[31:0]$260</pre>
+      <pre>    67/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_DATA[31:0]$259</pre>
+      <pre>    68/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_ADDR[3:0]$258</pre>
+      <pre>    69/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$32[31:0]$257</pre>
+      <pre>    70/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_EN[31:0]$256</pre>
+      <pre>    71/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_DATA[31:0]$255</pre>
+      <pre>    72/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_ADDR[3:0]$254</pre>
+      <pre>    73/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$30[31:0]$253</pre>
+      <pre>    74/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_EN[31:0]$252</pre>
+      <pre>    75/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_DATA[31:0]$251</pre>
+      <pre>    76/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_ADDR[3:0]$250</pre>
+      <pre>    77/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$28[31:0]$249</pre>
+      <pre>    78/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_EN[31:0]$248</pre>
+      <pre>    79/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_DATA[31:0]$247</pre>
+      <pre>    80/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_ADDR[3:0]$246</pre>
+      <pre>    81/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$26[31:0]$245</pre>
+      <pre>    82/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_EN[31:0]$244</pre>
+      <pre>    83/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_DATA[31:0]$243</pre>
+      <pre>    84/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_ADDR[3:0]$242</pre>
+      <pre>    85/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$24[31:0]$241</pre>
+      <pre>    86/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_EN[31:0]$240</pre>
+      <pre>    87/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_DATA[31:0]$239</pre>
+      <pre>    88/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_ADDR[3:0]$238</pre>
+      <pre>    89/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$22[31:0]$237</pre>
+      <pre>    90/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_EN[31:0]$236</pre>
+      <pre>    91/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_DATA[31:0]$235</pre>
+      <pre>    92/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_ADDR[3:0]$234</pre>
+      <pre>    93/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$20[31:0]$233</pre>
+      <pre>    94/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_EN[31:0]$232</pre>
+      <pre>    95/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_DATA[31:0]$231</pre>
+      <pre>    96/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_ADDR[3:0]$230</pre>
+      <pre>    97/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$18[31:0]$229</pre>
+      <pre>    98/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_EN[31:0]$228</pre>
+      <pre>    99/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_DATA[31:0]$227</pre>
+      <pre>   100/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_ADDR[3:0]$226</pre>
+      <pre>   101/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$16[31:0]$225</pre>
+      <pre>   102/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_EN[31:0]$224</pre>
+      <pre>   103/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_DATA[31:0]$223</pre>
+      <pre>   104/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_ADDR[3:0]$222</pre>
+      <pre>   105/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$14[31:0]$221</pre>
+      <pre>   106/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_EN[31:0]$220</pre>
+      <pre>   107/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_DATA[31:0]$219</pre>
+      <pre>   108/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_ADDR[3:0]$218</pre>
+      <pre>   109/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$12[31:0]$217</pre>
+      <pre>   110/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_EN[31:0]$216</pre>
+      <pre>   111/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_DATA[31:0]$215</pre>
+      <pre>   112/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_ADDR[3:0]$214</pre>
+      <pre>   113/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$10[31:0]$213</pre>
+      <pre>   114/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_EN[31:0]$212</pre>
+      <pre>   115/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_DATA[31:0]$211</pre>
+      <pre>   116/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_ADDR[3:0]$210</pre>
+      <pre>   117/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$8[31:0]$209</pre>
+      <pre>   118/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_EN[31:0]$208</pre>
+      <pre>   119/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_DATA[31:0]$207</pre>
+      <pre>   120/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_ADDR[3:0]$206</pre>
+      <pre>   121/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$6[31:0]$205</pre>
+      <pre>   122/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_EN[31:0]$204</pre>
+      <pre>   123/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_DATA[31:0]$203</pre>
+      <pre>   124/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_ADDR[3:0]$202</pre>
+      <pre>   125/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$4[31:0]$201</pre>
+      <pre>   126/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_EN[31:0]$200</pre>
+      <pre>   127/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_DATA[31:0]$199</pre>
+      <pre>   128/129: $1$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_ADDR[3:0]$198</pre>
+      <pre>   129/129: $1$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$2[31:0]$197</pre>
       <pre></pre>
       <pre>4.8. Executing PROC_DLATCH pass (convert process syncs to latches).</pre>
       <pre></pre>
       <pre>4.9. Executing PROC_DFF pass (convert process syncs to FFs).</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.\i&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.\i&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$776&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.\o_read_data&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.\o_read_data&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$777&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$2&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$2&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$778&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$779&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$780&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$3_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$781&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$4&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$4&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$782&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$783&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$784&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$5_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$785&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$6&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$6&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$786&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$787&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$788&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$7_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$789&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$8&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$8&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$790&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$791&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$792&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$9_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$793&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$10&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$10&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$794&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$795&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$796&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$11_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$797&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$12&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$12&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$798&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$799&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$800&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$13_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$801&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$14&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$14&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$802&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$803&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$804&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$15_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$805&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$16&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$16&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$806&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$807&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$808&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$17_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$809&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$18&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$18&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$810&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$811&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$812&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$19_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$813&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$20&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$20&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$814&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$815&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$816&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$21_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$817&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$22&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$22&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$818&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$819&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$820&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$23_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$821&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$24&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$24&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$822&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$823&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$824&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$25_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$825&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$26&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$26&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$826&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$827&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$828&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$27_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$829&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$28&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$28&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$830&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$831&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$832&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$29_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$833&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$30&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$30&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$834&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$835&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$836&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$31_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$837&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$32&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$32&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$838&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$839&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$840&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$33_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$841&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$34&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$34&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$842&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$843&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$844&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$35_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$845&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$36&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$36&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$846&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$847&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$848&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$37_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$849&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$38&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$38&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$850&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$851&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$852&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$39_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$853&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$40&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$40&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$854&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$855&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$856&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$41_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$857&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$42&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$42&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$858&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$859&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$860&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$43_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$861&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$44&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$44&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$862&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$863&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$864&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$45_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$865&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$46&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$46&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$866&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$867&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$868&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$47_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$869&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$48&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$48&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$870&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$871&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$872&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$49_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$873&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$50&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$50&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$874&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$875&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$876&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:72$51_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$877&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$52&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$52&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$878&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$879&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$880&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:73$53_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$881&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$54&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$54&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$882&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$883&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$884&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:74$55_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$885&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$56&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$56&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$886&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$887&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$888&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:75$57_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$889&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$58&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$58&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$890&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$891&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$892&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:76$59_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$893&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$60&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$60&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$894&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$895&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$896&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:77$61_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$897&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$62&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$62&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$898&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$899&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$900&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:78$63_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$901&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$64&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$mem2bits$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$64&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$902&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_ADDR&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$903&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_DATA&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$904&#39; with positive edge clock.</pre>
-      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Creating register for signal `\generic_sram_byte_en.$memwr$\mem$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:79$65_EN&#39; using process `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>  created $dff cell `$procdff$905&#39; with positive edge clock.</pre>
       <pre></pre>
       <pre>4.10. Executing PROC_MEMWR pass (convert process memory writes to cells).</pre>
       <pre></pre>
       <pre>4.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Found and cleaned up 1 empty switch in `\generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
-      <pre>Removing empty process `generic_sram_byte_en.$proc$/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Found and cleaned up 1 empty switch in `\generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
+      <pre>Removing empty process `generic_sram_byte_en.$proc$/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/memories/amber23_sram_byte_en.v:63$66&#39;.</pre>
       <pre>Cleaned up 1 empty switch.</pre>
       <pre></pre>
       <pre>4.12. Executing OPT_EXPR pass (perform const folding).</pre>

@@ -17,7 +17,7 @@
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/yosys/tests/simple<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/yosys/tests/simple<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,14 +32,14 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:35:15</dd></div>
-        <div><dt>time elapsed</dt><dd>0.016s</dd></div>
-        <div><dt>ram usage</dt><dd>24072 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:50:27</dd></div>
+        <div><dt>time elapsed</dt><dd>0.010s</dd></div>
+        <div><dt>ram usage</dt><dd>15568 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>yosys-slang -s /__w/sv-tests/sv-tests/out/tmp/tmpuk3pvyes/yosys-script</pre>
+      <pre>yosys-slang -s /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpkvag7bkb/yosys-script</pre>
       <pre></pre>
       <pre> /----------------------------------------------------------------------------\</pre>
       <pre> |  yosys -- Yosys Open SYnthesis Suite                                       |</pre>
@@ -48,70 +48,8 @@
       <pre> \----------------------------------------------------------------------------/</pre>
       <pre> Yosys 0.60+15 (git sha1 2e9db8b85, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmpuk3pvyes/yosys-script&#39; --</pre>
-      <pre></pre>
-      <pre>1. Executing SLANG frontend.</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:43:33: error: non-blocking assignment to variable &#39;r1&#39; is not supported after previous blocking assignment</pre>
-      <pre>                                r1[3:0] &lt;= r2[0:3] ^ x1;</pre>
-      <pre>                                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:39:17: note: previous assignment here</pre>
-      <pre>                { r1, r2 } = 16&#39;h1337 ^ {a, b};</pre>
-      <pre>                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:44:33: error: non-blocking assignment to variable &#39;r2&#39; is not supported after previous blocking assignment</pre>
-      <pre>                                r2[4:7] &lt;= r1[7:4] ^ x4;</pre>
-      <pre>                                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:39:17: note: previous assignment here</pre>
-      <pre>                { r1, r2 } = 16&#39;h1337 ^ {a, b};</pre>
-      <pre>                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:47:33: error: non-blocking assignment to variable &#39;r1&#39; is not supported after previous blocking assignment</pre>
-      <pre>                                r1[2 +: 3] &lt;= r2[5 -: 3] + x1;</pre>
-      <pre>                                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:39:17: note: previous assignment here</pre>
-      <pre>                { r1, r2 } = 16&#39;h1337 ^ {a, b};</pre>
-      <pre>                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:48:33: error: non-blocking assignment to variable &#39;r2&#39; is not supported after previous blocking assignment</pre>
-      <pre>                                r2[3 +: 3] &lt;= r1[6 -: 3] + x4;</pre>
-      <pre>                                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:39:17: note: previous assignment here</pre>
-      <pre>                { r1, r2 } = 16&#39;h1337 ^ {a, b};</pre>
-      <pre>                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:51:33: error: non-blocking assignment to variable &#39;r1&#39; is not supported after previous blocking assignment</pre>
-      <pre>                                r1[6 -: 3] &lt;= r2[3 +: 3] - x1;</pre>
-      <pre>                                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:39:17: note: previous assignment here</pre>
-      <pre>                { r1, r2 } = 16&#39;h1337 ^ {a, b};</pre>
-      <pre>                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:52:33: error: non-blocking assignment to variable &#39;r2&#39; is not supported after previous blocking assignment</pre>
-      <pre>                                r2[7 -: 3] &lt;= r1[4 +: 3] - x4;</pre>
-      <pre>                                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:39:17: note: previous assignment here</pre>
-      <pre>                { r1, r2 } = 16&#39;h1337 ^ {a, b};</pre>
-      <pre>                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:55:33: error: non-blocking assignment to variable &#39;r1&#39; is not supported after previous blocking assignment</pre>
-      <pre>                                r1 &lt;= r2;</pre>
-      <pre>                                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:39:17: note: previous assignment here</pre>
-      <pre>                { r1, r2 } = 16&#39;h1337 ^ {a, b};</pre>
-      <pre>                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:56:33: error: non-blocking assignment to variable &#39;r2&#39; is not supported after previous blocking assignment</pre>
-      <pre>                                r2 &lt;= r1;</pre>
-      <pre>                                ^</pre>
-      <pre>../../../third_party/tools/yosys/tests/simple/partsel.v:39:17: note: previous assignment here</pre>
-      <pre>                { r1, r2 } = 16&#39;h1337 ^ {a, b};</pre>
-      <pre>                ^</pre>
-      <pre>Top level design units:</pre>
-      <pre>    partsel_test001</pre>
-      <pre>    partsel_test002</pre>
-      <pre>    partsel_test003</pre>
-      <pre>    partsel_test004</pre>
-      <pre>    partsel_test005</pre>
-      <pre>    partsel_test006</pre>
-      <pre>    partsel_test007</pre>
-      <pre>    partsel_test008</pre>
-      <pre></pre>
-      <pre></pre>
-      <pre>Build failed: 8 errors, 0 warnings</pre>
-      <pre>ERROR: Compilation failed</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpkvag7bkb/yosys-script&#39; --</pre>
+      <pre>ERROR: init_share_dirname: unable to determine share/ directory!</pre>
       <pre></pre>
     </section>
   </body>

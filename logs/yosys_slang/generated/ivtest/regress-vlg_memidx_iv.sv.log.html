@@ -5,20 +5,20 @@
     <link rel="stylesheet" type="text/css" href="../../../../log.css">
   </head>
   <body>
-    <header class="test-passed">
+    <header class="test-failed">
         <a href="https://github.com/povik/yosys-slang/tree/d4053e825408a25dc2c065cd430b4cc5e71b1b6c" target="_blank"><h1>yosys-slang</h1></a>
         <h2>regress-vlg_memidx_iv</h2>
     </header>
     <section class="property-list">
       <dl>
         <div><dt>description</dt><dd>Test imported from ivtest</dd></div>
-        <div><dt>rc</dt><dd>0 (means success: 1)</dd></div>
+        <div><dt>rc</dt><dd>1 (means success: 0)</dd></div>
         <div><dt>tags</dt><dd>ivtest</dd></div>
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest<li>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,14 +32,14 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:33:51</dd></div>
-        <div><dt>time elapsed</dt><dd>0.023s</dd></div>
-        <div><dt>ram usage</dt><dd>27980 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:50:18</dd></div>
+        <div><dt>time elapsed</dt><dd>0.010s</dd></div>
+        <div><dt>ram usage</dt><dd>15364 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>yosys-slang -s /__w/sv-tests/sv-tests/out/tmp/tmpu0yhfw88/yosys-script</pre>
+      <pre>yosys-slang -s /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmps7kaql91/yosys-script</pre>
       <pre></pre>
       <pre> /----------------------------------------------------------------------------\</pre>
       <pre> |  yosys -- Yosys Open SYnthesis Suite                                       |</pre>
@@ -48,173 +48,8 @@
       <pre> \----------------------------------------------------------------------------/</pre>
       <pre> Yosys 0.60+15 (git sha1 2e9db8b85, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmpu0yhfw88/yosys-script&#39; --</pre>
-      <pre></pre>
-      <pre>1. Executing SLANG frontend.</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/memidx.v:52:17: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>        always @(readptr or body[readptr]) begin</pre>
-      <pre>                ^~~~~~~~~~~~~~~~~~~~~~~~~~</pre>
-      <pre>Top level design units:</pre>
-      <pre>    BENCH</pre>
-      <pre></pre>
-      <pre></pre>
-      <pre>Build succeeded: 0 errors, 1 warning</pre>
-      <pre></pre>
-      <pre>1.1. Executing UNDRIVEN pass. (resolve undriven signals)</pre>
-      <pre></pre>
-      <pre>1.2. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Found and cleaned up 1 empty switch in `\BENCH.$60&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\BENCH.$57&#39;.</pre>
-      <pre>Removing empty process `BENCH.$55&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\BENCH.$30&#39;.</pre>
-      <pre>Removing empty process `BENCH.$27&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\BENCH.$2&#39;.</pre>
-      <pre>Cleaned up 4 empty switches.</pre>
-      <pre></pre>
-      <pre>1.3. Executing TRIBUF pass.</pre>
-      <pre></pre>
-      <pre>1.4. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Marked 1 switch rules as full_case in process $30 in module BENCH.</pre>
-      <pre>Marked 1 switch rules as full_case in process $2 in module BENCH.</pre>
-      <pre>Removed a total of 0 dead cases.</pre>
-      <pre></pre>
-      <pre>1.5. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
-      <pre>Removed 2 redundant assignments.</pre>
-      <pre>Promoted 0 assignments to connections.</pre>
-      <pre></pre>
-      <pre>1.6. Executing PROC_INIT pass (extract init attributes).</pre>
-      <pre></pre>
-      <pre>1.7. Executing PROC_ROM pass (convert switches to ROMs).</pre>
-      <pre>Converted 0 switches.</pre>
-      <pre>&lt;suppressed ~4 debug messages&gt;</pre>
-      <pre></pre>
-      <pre>1.8. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre>Creating decoders for process `\BENCH.$60&#39;.</pre>
-      <pre>     1/2: $errors$65</pre>
-      <pre>     2/2: $63</pre>
-      <pre>Creating decoders for process `\BENCH.$30&#39;.</pre>
-      <pre>     1/8: $usingalways.readptr$54</pre>
-      <pre>     2/8: $51</pre>
-      <pre>     3/8: $48</pre>
-      <pre>     4/8: $45</pre>
-      <pre>     5/8: $42</pre>
-      <pre>     6/8: $39</pre>
-      <pre>     7/8: $36</pre>
-      <pre>     8/8: $33</pre>
-      <pre>Creating decoders for process `\BENCH.$57&#39;.</pre>
-      <pre>     1/1: $reset$59</pre>
-      <pre>Creating decoders for process `\BENCH.$2&#39;.</pre>
-      <pre>     1/8: $usingwire.readptr$26</pre>
-      <pre>     2/8: $23</pre>
-      <pre>     3/8: $20</pre>
-      <pre>     4/8: $17</pre>
-      <pre>     5/8: $14</pre>
-      <pre>     6/8: $11</pre>
-      <pre>     7/8: $8</pre>
-      <pre>     8/8: $5</pre>
-      <pre></pre>
-      <pre>1.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Found and cleaned up 1 empty switch in `\BENCH.$60&#39;.</pre>
-      <pre>Removing empty process `BENCH.$60&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\BENCH.$30&#39;.</pre>
-      <pre>Removing empty process `BENCH.$30&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\BENCH.$57&#39;.</pre>
-      <pre>Removing empty process `BENCH.$57&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\BENCH.$2&#39;.</pre>
-      <pre>Removing empty process `BENCH.$2&#39;.</pre>
-      <pre>Cleaned up 4 empty switches.</pre>
-      <pre></pre>
-      <pre>1.10. Executing OPT_EXPR pass (perform const folding).</pre>
-      <pre>Optimizing module BENCH.</pre>
-      <pre>Couldn&#39;t topologically sort cells, optimizing module BENCH may take a longer time.</pre>
-      <pre>&lt;suppressed ~52 debug messages&gt;</pre>
-      <pre></pre>
-      <pre>2. Executing HIERARCHY pass (managing design hierarchy).</pre>
-      <pre>Attribute `top&#39; found on module `BENCH&#39;. Setting top module to BENCH.</pre>
-      <pre></pre>
-      <pre>2.1. Analyzing design hierarchy..</pre>
-      <pre>Top module:  \BENCH</pre>
-      <pre></pre>
-      <pre>2.2. Analyzing design hierarchy..</pre>
-      <pre>Top module:  \BENCH</pre>
-      <pre>Removed 0 unused modules.</pre>
-      <pre>Module BENCH directly or indirectly displays text -&gt; setting &#34;keep&#34; attribute.</pre>
-      <pre></pre>
-      <pre>3. Executing PROC pass (convert processes to netlists).</pre>
-      <pre></pre>
-      <pre>3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Cleaned up 0 empty switches.</pre>
-      <pre></pre>
-      <pre>3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Removed a total of 0 dead cases.</pre>
-      <pre></pre>
-      <pre>3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
-      <pre>Removed 0 redundant assignments.</pre>
-      <pre>Promoted 0 assignments to connections.</pre>
-      <pre></pre>
-      <pre>3.4. Executing PROC_INIT pass (extract init attributes).</pre>
-      <pre></pre>
-      <pre>3.5. Executing PROC_ARST pass (detect async resets in processes).</pre>
-      <pre></pre>
-      <pre>3.6. Executing PROC_ROM pass (convert switches to ROMs).</pre>
-      <pre>Converted 0 switches.</pre>
-      <pre></pre>
-      <pre>3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre></pre>
-      <pre>3.8. Executing PROC_DLATCH pass (convert process syncs to latches).</pre>
-      <pre></pre>
-      <pre>3.9. Executing PROC_DFF pass (convert process syncs to FFs).</pre>
-      <pre></pre>
-      <pre>3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).</pre>
-      <pre></pre>
-      <pre>3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Cleaned up 0 empty switches.</pre>
-      <pre></pre>
-      <pre>3.12. Executing OPT_EXPR pass (perform const folding).</pre>
-      <pre>Optimizing module BENCH.</pre>
-      <pre></pre>
-      <pre>4. Executing CHECK pass (checking for obvious problems).</pre>
-      <pre>Checking module BENCH...</pre>
-      <pre>Warning: Wire BENCH.$56y is used but has no driver.</pre>
-      <pre>Found and reported 1 problems.</pre>
-      <pre></pre>
-      <pre>5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).</pre>
-      <pre>Checking read port `\usingalways.body&#39;[0] in module `\BENCH&#39;: no output FF found.</pre>
-      <pre>Checking read port `\usingwire.body&#39;[0] in module `\BENCH&#39;: no output FF found.</pre>
-      <pre>Checking read port address `\usingalways.body&#39;[0] in module `\BENCH&#39;: merged address FF to cell.</pre>
-      <pre>Checking read port address `\usingwire.body&#39;[0] in module `\BENCH&#39;: merged address FF to cell.</pre>
-      <pre></pre>
-      <pre>6. Executing MEMORY_COLLECT pass (generating $mem cells).</pre>
-      <pre></pre>
-      <pre>7. Printing statistics.</pre>
-      <pre></pre>
-      <pre>=== BENCH ===</pre>
-      <pre></pre>
-      <pre>        +----------Local Count, excluding submodules.</pre>
-      <pre>        | </pre>
-      <pre>       95 wires</pre>
-      <pre>      629 wire bits</pre>
-      <pre>       14 public wires</pre>
-      <pre>      142 public wire bits</pre>
-      <pre>       49 cells</pre>
-      <pre>        4   $add</pre>
-      <pre>        5   $dff</pre>
-      <pre>        1   $eq</pre>
-      <pre>        2   $mem_v2</pre>
-      <pre>       33   $mux</pre>
-      <pre>        1   $nex</pre>
-      <pre>        2   $not</pre>
-      <pre>        1   $print</pre>
-      <pre></pre>
-      <pre>8. Executing CHECK pass (checking for obvious problems).</pre>
-      <pre>Checking module BENCH...</pre>
-      <pre>Warning: Wire BENCH.$56y is used but has no driver.</pre>
-      <pre>Found and reported 1 problems.</pre>
-      <pre></pre>
-      <pre>Warnings: 1 unique messages, 2 total</pre>
-      <pre>End of script. Logfile hash: a6b7d0dc73, CPU: user 0.01s system 0.00s, MEM: 24.11 MB peak</pre>
-      <pre>Yosys 0.60+15 (git sha1 2e9db8b85, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)</pre>
-      <pre>Time spent: 24% 2x opt_expr (0 sec), 23% 2x read_slang (0 sec), ...</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmps7kaql91/yosys-script&#39; --</pre>
+      <pre>ERROR: init_share_dirname: unable to determine share/ directory!</pre>
       <pre></pre>
     </section>
   </body>

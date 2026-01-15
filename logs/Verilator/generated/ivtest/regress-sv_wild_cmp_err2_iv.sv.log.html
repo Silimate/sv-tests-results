@@ -17,8 +17,8 @@
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest<li>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,26 +32,26 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 07:08:24</dd></div>
-        <div><dt>time elapsed</dt><dd>0.103s</dd></div>
-        <div><dt>ram usage</dt><dd>15444 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:21:01</dd></div>
+        <div><dt>time elapsed</dt><dd>0.067s</dd></div>
+        <div><dt>ram usage</dt><dd>15616 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>sh scr.sh --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest -I/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v</a></pre>
-      <pre>+ verilator --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest -I/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v</a></pre>
+      <pre>sh scr.sh --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest -I/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v</a></pre>
+      <pre>+ verilator --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest -I/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v</a></pre>
       <pre>%Error: <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html#l-9" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v:9:18</a>: Real is illegal operand to ?== operator</pre>
-      <pre>                                                                                            : ... note: In instance &#39;top&#39;</pre>
+      <pre>                                                                                                    : ... note: In instance &#39;top&#39;</pre>
       <pre>        ... See the manual at https://verilator.org/verilator_doc.html?v=5.043 for more assistance.</pre>
       <pre>%Error: <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html#l-10" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v:10:18</a>: Real is illegal operand to ?== operator</pre>
-      <pre>                                                                                             : ... note: In instance &#39;top&#39;</pre>
+      <pre>                                                                                                     : ... note: In instance &#39;top&#39;</pre>
       <pre>%Error: <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html#l-11" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v:11:18</a>: Real is illegal operand to ?== operator</pre>
-      <pre>                                                                                             : ... note: In instance &#39;top&#39;</pre>
+      <pre>                                                                                                     : ... note: In instance &#39;top&#39;</pre>
       <pre>%Error: <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html#l-12" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v:12:18</a>: Real is illegal operand to ?== operator</pre>
-      <pre>                                                                                             : ... note: In instance &#39;top&#39;</pre>
-      <pre>%Error: Internal Error: <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html#l-13" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v:13:18</a>: ../V3Width.cpp:8442: Node needs conversion to string, but bad case: EQWILD 0x5632a2497710 {e13as} @dt=0x5632a246eea0@(G/w1)</pre>
-      <pre>                                                                                                             : ... note: In instance &#39;top&#39;</pre>
+      <pre>                                                                                                     : ... note: In instance &#39;top&#39;</pre>
+      <pre>%Error: Internal Error: <a href="../../../../third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v.html#l-13" target="file-frame">third_party/tools/icarus/ivtest/ivltests/wild_cmp_err2.v:13:18</a>: ../V3Width.cpp:8442: Node needs conversion to string, but bad case: EQWILD 0x5a935fa1aad0 {e13as} @dt=0x5a935f9f2320@(G/w1)</pre>
+      <pre>                                                                                                                     : ... note: In instance &#39;top&#39;</pre>
       <pre>                        ... This fatal error may be caused by the earlier error(s); resolve those first.</pre>
       <pre>+ exit 1</pre>
       <pre></pre>

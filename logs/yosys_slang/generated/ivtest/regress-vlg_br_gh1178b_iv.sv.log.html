@@ -17,8 +17,8 @@
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest<li>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,14 +32,14 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:34:08</dd></div>
-        <div><dt>time elapsed</dt><dd>0.011s</dd></div>
-        <div><dt>ram usage</dt><dd>22532 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:50:18</dd></div>
+        <div><dt>time elapsed</dt><dd>0.010s</dd></div>
+        <div><dt>ram usage</dt><dd>15000 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>yosys-slang -s /__w/sv-tests/sv-tests/out/tmp/tmp_5b48vgz/yosys-script</pre>
+      <pre>yosys-slang -s /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpirkd325b/yosys-script</pre>
       <pre></pre>
       <pre> /----------------------------------------------------------------------------\</pre>
       <pre> |  yosys -- Yosys Open SYnthesis Suite                                       |</pre>
@@ -48,27 +48,8 @@
       <pre> \----------------------------------------------------------------------------/</pre>
       <pre> Yosys 0.60+15 (git sha1 2e9db8b85, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmp_5b48vgz/yosys-script&#39; --</pre>
-      <pre></pre>
-      <pre>1. Executing SLANG frontend.</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/br_gh1178b.v:10:41: error: connection on port &#39;w&#39; with direction &#39;inout&#39; cannot be inlined; see yosys-slang issue #143</pre>
-      <pre>  net_connect #(.WIDTH(8)) net_connect (replicated, ({bus, bus}));</pre>
-      <pre>                                        ^~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/br_gh1178b.v:10:54: error: connection on port &#39;w&#39; with direction &#39;inout&#39; cannot be inlined; see yosys-slang issue #143</pre>
-      <pre>  net_connect #(.WIDTH(8)) net_connect (replicated, ({bus, bus}));</pre>
-      <pre>                                                     ^~~~~~~~~~</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/br_gh1178b.v:20:25: error: connection on port &#39;bus&#39; with direction &#39;inout&#39; cannot be inlined; see yosys-slang issue #143</pre>
-      <pre>  ReplicateMod dut(.bus(wire__bus), .replicated(replicated));</pre>
-      <pre>                        ^~~~~~~~~</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/br_gh1178b.v:20:49: error: connection on port &#39;replicated&#39; with direction &#39;inout&#39; cannot be inlined; see yosys-slang issue #143</pre>
-      <pre>  ReplicateMod dut(.bus(wire__bus), .replicated(replicated));</pre>
-      <pre>                                                ^~~~~~~~~~</pre>
-      <pre>Top level design units:</pre>
-      <pre>    tb</pre>
-      <pre></pre>
-      <pre></pre>
-      <pre>Build failed: 4 errors, 0 warnings</pre>
-      <pre>ERROR: Compilation failed</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpirkd325b/yosys-script&#39; --</pre>
+      <pre>ERROR: init_share_dirname: unable to determine share/ directory!</pre>
       <pre></pre>
     </section>
   </body>

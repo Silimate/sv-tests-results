@@ -5,20 +5,20 @@
     <link rel="stylesheet" type="text/css" href="../../../../log.css">
   </head>
   <body>
-    <header class="test-passed">
+    <header class="test-failed">
         <a href="https://github.com/povik/yosys-slang/tree/d4053e825408a25dc2c065cd430b4cc5e71b1b6c" target="_blank"><h1>yosys-slang</h1></a>
         <h2>regress-vlg_pr2172606b_iv</h2>
     </header>
     <section class="property-list">
       <dl>
         <div><dt>description</dt><dd>Test imported from ivtest</dd></div>
-        <div><dt>rc</dt><dd>0 (means success: 1)</dd></div>
+        <div><dt>rc</dt><dd>1 (means success: 0)</dd></div>
         <div><dt>tags</dt><dd>ivtest</dd></div>
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest<li>
-            <li>/__w/sv-tests/sv-tests/third_party/tools/icarus/ivtest/ivltests<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/third_party/tools/icarus/ivtest/ivltests<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -32,14 +32,14 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:34:03</dd></div>
-        <div><dt>time elapsed</dt><dd>0.031s</dd></div>
-        <div><dt>ram usage</dt><dd>28548 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:50:10</dd></div>
+        <div><dt>time elapsed</dt><dd>0.010s</dd></div>
+        <div><dt>ram usage</dt><dd>14972 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>yosys-slang -s /__w/sv-tests/sv-tests/out/tmp/tmplxbx0uqo/yosys-script</pre>
+      <pre>yosys-slang -s /__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpedrnaa0l/yosys-script</pre>
       <pre></pre>
       <pre> /----------------------------------------------------------------------------\</pre>
       <pre> |  yosys -- Yosys Open SYnthesis Suite                                       |</pre>
@@ -48,228 +48,8 @@
       <pre> \----------------------------------------------------------------------------/</pre>
       <pre> Yosys 0.60+15 (git sha1 2e9db8b85, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)</pre>
       <pre></pre>
-      <pre>-- Executing script file `/__w/sv-tests/sv-tests/out/tmp/tmplxbx0uqo/yosys-script&#39; --</pre>
-      <pre></pre>
-      <pre>1. Executing SLANG frontend.</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/pr2172606b.v:55:12: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>  always @(cout0) begin</pre>
-      <pre>           ^~~~~</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/pr2172606b.v:60:12: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>  always @(cout1) begin</pre>
-      <pre>           ^~~~~</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/pr2172606b.v:65:12: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>  always @(out) begin</pre>
-      <pre>           ^~~</pre>
-      <pre>../../../third_party/tools/icarus/ivtest/ivltests/pr2172606b.v:70:11: warning: non-edge sensitivity on a signal will be synthesized as @* sensitivity</pre>
-      <pre>  always @(sel, in_1, in_0) begin</pre>
-      <pre>          ^~~~~~~~~~~~~~~~~</pre>
-      <pre>Top level design units:</pre>
-      <pre>    top</pre>
-      <pre></pre>
-      <pre></pre>
-      <pre>Build succeeded: 0 errors, 4 warnings</pre>
-      <pre></pre>
-      <pre>1.1. Executing UNDRIVEN pass. (resolve undriven signals)</pre>
-      <pre></pre>
-      <pre>1.2. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Found and cleaned up 1 empty switch in `\top.$109&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\top.$73&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\top.$38&#39;.</pre>
-      <pre>Found and cleaned up 1 empty switch in `\top.$3&#39;.</pre>
-      <pre>Cleaned up 4 empty switches.</pre>
-      <pre></pre>
-      <pre>1.3. Executing TRIBUF pass.</pre>
-      <pre></pre>
-      <pre>1.4. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Marked 10 switch rules as full_case in process $109 in module top.</pre>
-      <pre>Marked 10 switch rules as full_case in process $73 in module top.</pre>
-      <pre>Marked 10 switch rules as full_case in process $38 in module top.</pre>
-      <pre>Marked 10 switch rules as full_case in process $3 in module top.</pre>
-      <pre>Removed a total of 0 dead cases.</pre>
-      <pre></pre>
-      <pre>1.5. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
-      <pre>Removed 16 redundant assignments.</pre>
-      <pre>Promoted 0 assignments to connections.</pre>
-      <pre></pre>
-      <pre>1.6. Executing PROC_INIT pass (extract init attributes).</pre>
-      <pre></pre>
-      <pre>1.7. Executing PROC_ROM pass (convert switches to ROMs).</pre>
-      <pre>Converted 0 switches.</pre>
-      <pre>&lt;suppressed ~52 debug messages&gt;</pre>
-      <pre></pre>
-      <pre>1.8. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre>Creating decoders for process `\top.$109&#39;.</pre>
-      <pre>     1/14: $passed$138</pre>
-      <pre>     2/14: $passed$139</pre>
-      <pre>     3/14: $passed$140</pre>
-      <pre>     4/14: $passed$141</pre>
-      <pre>     5/14: $passed$120</pre>
-      <pre>     6/14: $passed$142</pre>
-      <pre>     7/14: $passed$115</pre>
-      <pre>     8/14: $144</pre>
-      <pre>     9/14: $143</pre>
-      <pre>    10/14: $137</pre>
-      <pre>    11/14: $132</pre>
-      <pre>    12/14: $127</pre>
-      <pre>    13/14: $119</pre>
-      <pre>    14/14: $114</pre>
-      <pre>Creating decoders for process `\top.$73&#39;.</pre>
-      <pre>     1/14: $passed$101</pre>
-      <pre>     2/14: $passed$102</pre>
-      <pre>     3/14: $passed$103</pre>
-      <pre>     4/14: $passed$104</pre>
-      <pre>     5/14: $passed$83</pre>
-      <pre>     6/14: $passed$105</pre>
-      <pre>     7/14: $passed$78</pre>
-      <pre>     8/14: $107</pre>
-      <pre>     9/14: $106</pre>
-      <pre>    10/14: $100</pre>
-      <pre>    11/14: $95</pre>
-      <pre>    12/14: $90</pre>
-      <pre>    13/14: $82</pre>
-      <pre>    14/14: $77</pre>
-      <pre>Creating decoders for process `\top.$38&#39;.</pre>
-      <pre>     1/14: $passed$65</pre>
-      <pre>     2/14: $passed$66</pre>
-      <pre>     3/14: $passed$67</pre>
-      <pre>     4/14: $passed$68</pre>
-      <pre>     5/14: $passed$48</pre>
-      <pre>     6/14: $passed$69</pre>
-      <pre>     7/14: $passed$43</pre>
-      <pre>     8/14: $71</pre>
-      <pre>     9/14: $70</pre>
-      <pre>    10/14: $64</pre>
-      <pre>    11/14: $59</pre>
-      <pre>    12/14: $54</pre>
-      <pre>    13/14: $47</pre>
-      <pre>    14/14: $42</pre>
-      <pre>Creating decoders for process `\top.$3&#39;.</pre>
-      <pre>     1/14: $passed$30</pre>
-      <pre>     2/14: $passed$31</pre>
-      <pre>     3/14: $passed$32</pre>
-      <pre>     4/14: $passed$33</pre>
-      <pre>     5/14: $passed$13</pre>
-      <pre>     6/14: $passed$34</pre>
-      <pre>     7/14: $passed$8</pre>
-      <pre>     8/14: $36</pre>
-      <pre>     9/14: $35</pre>
-      <pre>    10/14: $29</pre>
-      <pre>    11/14: $24</pre>
-      <pre>    12/14: $19</pre>
-      <pre>    13/14: $12</pre>
-      <pre>    14/14: $7</pre>
-      <pre></pre>
-      <pre>1.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Found and cleaned up 13 empty switches in `\top.$109&#39;.</pre>
-      <pre>Removing empty process `top.$109&#39;.</pre>
-      <pre>Found and cleaned up 13 empty switches in `\top.$73&#39;.</pre>
-      <pre>Removing empty process `top.$73&#39;.</pre>
-      <pre>Found and cleaned up 13 empty switches in `\top.$38&#39;.</pre>
-      <pre>Removing empty process `top.$38&#39;.</pre>
-      <pre>Found and cleaned up 13 empty switches in `\top.$3&#39;.</pre>
-      <pre>Removing empty process `top.$3&#39;.</pre>
-      <pre>Cleaned up 52 empty switches.</pre>
-      <pre></pre>
-      <pre>1.10. Executing OPT_EXPR pass (perform const folding).</pre>
-      <pre>Optimizing module top.</pre>
-      <pre>&lt;suppressed ~2 debug messages&gt;</pre>
-      <pre></pre>
-      <pre>2. Executing HIERARCHY pass (managing design hierarchy).</pre>
-      <pre>Attribute `top&#39; found on module `top&#39;. Setting top module to top.</pre>
-      <pre></pre>
-      <pre>2.1. Analyzing design hierarchy..</pre>
-      <pre>Top module:  \top</pre>
-      <pre></pre>
-      <pre>2.2. Analyzing design hierarchy..</pre>
-      <pre>Top module:  \top</pre>
-      <pre>Removed 0 unused modules.</pre>
-      <pre>Module top directly or indirectly displays text -&gt; setting &#34;keep&#34; attribute.</pre>
-      <pre></pre>
-      <pre>3. Executing PROC pass (convert processes to netlists).</pre>
-      <pre></pre>
-      <pre>3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Cleaned up 0 empty switches.</pre>
-      <pre></pre>
-      <pre>3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).</pre>
-      <pre>Removed a total of 0 dead cases.</pre>
-      <pre></pre>
-      <pre>3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).</pre>
-      <pre>Removed 0 redundant assignments.</pre>
-      <pre>Promoted 0 assignments to connections.</pre>
-      <pre></pre>
-      <pre>3.4. Executing PROC_INIT pass (extract init attributes).</pre>
-      <pre></pre>
-      <pre>3.5. Executing PROC_ARST pass (detect async resets in processes).</pre>
-      <pre></pre>
-      <pre>3.6. Executing PROC_ROM pass (convert switches to ROMs).</pre>
-      <pre>Converted 0 switches.</pre>
-      <pre></pre>
-      <pre>3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).</pre>
-      <pre></pre>
-      <pre>3.8. Executing PROC_DLATCH pass (convert process syncs to latches).</pre>
-      <pre></pre>
-      <pre>3.9. Executing PROC_DFF pass (convert process syncs to FFs).</pre>
-      <pre></pre>
-      <pre>3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).</pre>
-      <pre></pre>
-      <pre>3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).</pre>
-      <pre>Cleaned up 0 empty switches.</pre>
-      <pre></pre>
-      <pre>3.12. Executing OPT_EXPR pass (perform const folding).</pre>
-      <pre>Optimizing module top.</pre>
-      <pre></pre>
-      <pre>4. Executing CHECK pass (checking for obvious problems).</pre>
-      <pre>Checking module top...</pre>
-      <pre>Warning: multiple conflicting drivers for top.\passed:</pre>
-      <pre>    port Q[0] of cell $145 ($dlatch)</pre>
-      <pre>    port Q[0] of cell $108 ($dlatch)</pre>
-      <pre>    port Q[0] of cell $72 ($dlatch)</pre>
-      <pre>    port Q[0] of cell $37 ($dlatch)</pre>
-      <pre>Warning: Wire top.\in_0 is used but has no driver.</pre>
-      <pre>Warning: Wire top.\in_1 is used but has no driver.</pre>
-      <pre>Warning: Wire top.\sel is used but has no driver.</pre>
-      <pre>Found and reported 4 problems.</pre>
-      <pre></pre>
-      <pre>5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).</pre>
-      <pre></pre>
-      <pre>6. Executing MEMORY_COLLECT pass (generating $mem cells).</pre>
-      <pre></pre>
-      <pre>7. Printing statistics.</pre>
-      <pre></pre>
-      <pre>=== top ===</pre>
-      <pre></pre>
-      <pre>        +----------Local Count, excluding submodules.</pre>
-      <pre>        | </pre>
-      <pre>      539 wires</pre>
-      <pre>      602 wire bits</pre>
-      <pre>       12 public wires</pre>
-      <pre>       75 public wire bits</pre>
-      <pre>      289 cells</pre>
-      <pre>        4   $dlatch</pre>
-      <pre>       18   $eqx</pre>
-      <pre>       14   $logic_and</pre>
-      <pre>      206   $mux</pre>
-      <pre>       24   $nex</pre>
-      <pre>        1   $not</pre>
-      <pre>       20   $print</pre>
-      <pre>        2   $tribuf</pre>
-      <pre></pre>
-      <pre>8. Executing CHECK pass (checking for obvious problems).</pre>
-      <pre>Checking module top...</pre>
-      <pre>Warning: multiple conflicting drivers for top.\passed:</pre>
-      <pre>    port Q[0] of cell $145 ($dlatch)</pre>
-      <pre>    port Q[0] of cell $108 ($dlatch)</pre>
-      <pre>    port Q[0] of cell $72 ($dlatch)</pre>
-      <pre>    port Q[0] of cell $37 ($dlatch)</pre>
-      <pre>Warning: Wire top.\in_0 is used but has no driver.</pre>
-      <pre>Warning: Wire top.\in_1 is used but has no driver.</pre>
-      <pre>Warning: Wire top.\sel is used but has no driver.</pre>
-      <pre>Found and reported 4 problems.</pre>
-      <pre></pre>
-      <pre>Warnings: 4 unique messages, 8 total</pre>
-      <pre>End of script. Logfile hash: c891f4358a, CPU: user 0.02s system 0.00s, MEM: 24.96 MB peak</pre>
-      <pre>Yosys 0.60+15 (git sha1 2e9db8b85, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)</pre>
-      <pre>Time spent: 27% 2x read_slang (0 sec), 21% 2x opt_expr (0 sec), ...</pre>
+      <pre>-- Executing script file `/__w/sv-tests-pvt/sv-tests-pvt/out/tmp/tmpedrnaa0l/yosys-script&#39; --</pre>
+      <pre>ERROR: init_share_dirname: unable to determine share/ directory!</pre>
       <pre></pre>
     </section>
   </body>

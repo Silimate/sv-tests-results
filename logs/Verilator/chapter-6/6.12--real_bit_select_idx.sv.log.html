@@ -13,11 +13,11 @@
       <dl>
         <div><dt>description</dt><dd>real bit select tests</dd></div>
         <div><dt>rc</dt><dd>1 (means success: 0)</dd></div>
-        <div><dt>tags</dt><dd>6.12 uvm-req</dd></div>
+        <div><dt>tags</dt><dd>uvm-req 6.12</dd></div>
         <div>
           <dt>incdirs</dt>
           <dd><ul>
-            <li>/__w/sv-tests/sv-tests/tests/chapter-6<li>
+            <li>/__w/sv-tests-pvt/sv-tests-pvt/tests/chapter-6<li>
           </ul></dd>
         </div>
         <div><dt>top module</dt><dd></dd></div>
@@ -31,21 +31,21 @@
           </ul></dd>
         </div>
         <div><dt>defines</dt><dd><code></code></dd></div>
-        <div><dt>completed</dt><dd>2025-12-10 06:54:57</dd></div>
-        <div><dt>time elapsed</dt><dd>0.099s</dd></div>
-        <div><dt>ram usage</dt><dd>15640 KB</dd></div>
+        <div><dt>completed</dt><dd>2026-01-14 03:16:42</dd></div>
+        <div><dt>time elapsed</dt><dd>0.066s</dd></div>
+        <div><dt>ram usage</dt><dd>15708 KB</dd></div>
       </dl>
     </section>
     <section class="log">
       <pre></pre>
-      <pre>sh scr.sh --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests/sv-tests/tests/chapter-6 -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../tests/chapter-6/6.12--real_bit_select_idx.sv.html" target="file-frame">tests/chapter-6/6.12--real_bit_select_idx.sv</a></pre>
-      <pre>+ verilator --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests/sv-tests/tests/chapter-6 -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../tests/chapter-6/6.12--real_bit_select_idx.sv.html" target="file-frame">tests/chapter-6/6.12--real_bit_select_idx.sv</a></pre>
+      <pre>sh scr.sh --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests-pvt/sv-tests-pvt/tests/chapter-6 -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../tests/chapter-6/6.12--real_bit_select_idx.sv.html" target="file-frame">tests/chapter-6/6.12--real_bit_select_idx.sv</a></pre>
+      <pre>+ verilator --timing --binary --build-jobs 0 -Wno-fatal -Wno-UNOPTFLAT -Wno-BLKANDNBLK -Wpedantic -Wno-context -I/__w/sv-tests-pvt/sv-tests-pvt/tests/chapter-6 -DUVM_NO_DPI --Mdir vbuild --prefix Vtop -o Vtop <a href="../../../tests/chapter-6/6.12--real_bit_select_idx.sv.html" target="file-frame">tests/chapter-6/6.12--real_bit_select_idx.sv</a></pre>
       <pre>%Warning-WIDTHTRUNC: <a href="../../../tests/chapter-6/6.12--real_bit_select_idx.sv.html#l-23" target="file-frame">tests/chapter-6/6.12--real_bit_select_idx.sv:23:14</a>: Bit extraction of var[3:0] requires 2 bit index, not 64 bits.</pre>
-      <pre>                                                                                              : ... note: In instance &#39;top&#39;</pre>
+      <pre>                                                                                                      : ... note: In instance &#39;top&#39;</pre>
       <pre>                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.043</pre>
       <pre>                     ... Use &#34;/* verilator lint_off WIDTHTRUNC */&#34; and lint_on around source to disable this message.</pre>
       <pre>%Error: <a href="../../../tests/chapter-6/6.12--real_bit_select_idx.sv.html#l-23" target="file-frame">tests/chapter-6/6.12--real_bit_select_idx.sv:23:14</a>: Operator SEL expected non-complex non-double Extract Range in width check</pre>
-      <pre>                                                                                 : ... note: In instance &#39;top&#39;</pre>
+      <pre>                                                                                         : ... note: In instance &#39;top&#39;</pre>
       <pre>        ... See the manual at https://verilator.org/verilator_doc.html?v=5.043 for more assistance.</pre>
       <pre>%Error: Exiting due to 1 error(s)</pre>
       <pre>+ exit 1</pre>
